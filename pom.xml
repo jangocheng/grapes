@@ -885,6 +885,8 @@
                         </configuration>
                     </plugin>
                 </plugins>
+                <!--build the war(jar) file without version -->
+                <finalName>${project.artifactId}</finalName>
             </build>
             <properties>
                 <!-- default Spring profiles -->
