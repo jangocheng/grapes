@@ -93,6 +93,10 @@ will generate few files:
 To optimize the grapes application for production, run:
 
     ./mvnw -Pprod clean package
+    
+ or skip test
+ 
+    ./mvnw -Pprod clean package -Dmaven.test.skip=true
 
 This will concatenate and minify the client CSS and JavaScript files. It will also modify `index.html` so it references these new files.
 To ensure everything worked, run:
