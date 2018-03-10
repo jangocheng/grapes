@@ -1,5 +1,5 @@
-# grapes
-This application was generated using JHipster, you can find documentation and help at [http://www.jhipster.tech/](http://www.jhipster.tech/).
+# Grapes
+Grapes is a Spring Boot + Angular Web application.
 
 
 ## Development
