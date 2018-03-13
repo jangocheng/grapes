@@ -129,5 +129,5 @@
         "emailexists": "Email is already in use!",
         "idexists": "A new {{ entityName }} cannot already have an ID"
     },
-    "footer": "Copyright © nxest.com 2018"
+    "footer": "Copyright © <a href=http://nxest.com/ target=_blank rel=noopener>nxest.com</a> 2018"
 }
