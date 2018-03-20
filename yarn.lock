@@ -142,9 +142,9 @@
   dependencies:
     tslib "^1.7.1"
 
-"@ng-bootstrap/ng-bootstrap@1.0.0":
-  version "1.0.0"
-  resolved "http://registry.npm.taobao.org/@ng-bootstrap/ng-bootstrap/download/@ng-bootstrap/ng-bootstrap-1.0.0.tgz#8f2ae70db2fe1dcbf5e0acb49dc2b1bbba2be8d2"
+"@ng-bootstrap/ng-bootstrap@1.0.2":
+  version "1.0.2"
+  resolved "http://registry.npm.taobao.org/@ng-bootstrap/ng-bootstrap/download/@ng-bootstrap/ng-bootstrap-1.0.2.tgz#859a1a72f7f2b1765040be566c8534dcaad0d70d"
 
 "@ngtools/json-schema@1.1.0", "@ngtools/json-schema@^1.1.0":
   version "1.1.0"
@@ -6124,6 +6124,10 @@ pkg-dir@^2.0.0:
 pluralize@7.0.0:
   version "7.0.0"
   resolved "http://registry.npm.taobao.org/pluralize/download/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
+
+popper.js@1.14.1:
+  version "1.14.1"
+  resolved "http://registry.npm.taobao.org/popper.js/download/popper.js-1.14.1.tgz#b8815e5cda6f62fc2042e47618649f75866e6753"
 
 portfinder@^1.0.9, portfinder@~1.0.12:
   version "1.0.13"
