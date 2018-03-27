@@ -2,17 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.nxest.grapes</groupId>
-    <artifactId>grapes</artifactId>
+    <artifactId>grape-seeds</artifactId>
     <version>0.0.1</version>
-    <packaging>pom</packaging>
-    <name>grapes</name>
-    <description>Grapes vue.js branch. Spring Boot + Vue.js.</description>
+    <packaging>war</packaging>
+    <name>grape-seeds</name>
 
-    <modules>
-        <module>grape-seeds</module>
-        <module>grape-skins</module>
-    </modules>
+    <parent>
+        <groupId>com.nxest.grapes</groupId>
+        <artifactId>grapes</artifactId>
+        <version>0.0.1</version>
+    </parent>
 
     <properties>
         <!-- Build properties -->
