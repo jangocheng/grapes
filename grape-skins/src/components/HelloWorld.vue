@@ -80,9 +80,7 @@
         </a>
       </li>
     </ul>
-    <span>ahhahahah</span>
   </div>
-
 </template>
 
 <script>

@@ -4,9 +4,8 @@
 /target/www/**
 /src/test/javascript/coverage/
 /src/test/javascript/PhantomJS*/
-/frontend/node_modules/
-/frontend/dist/
-/frontend/*.log
+yarn.lock
+yarn*.log
 
 ######################
 # Node
@@ -79,7 +78,6 @@ classes/
 # Gradle
 ######################
 .gradle/
-/build/
 
 ######################
 # Package Files
