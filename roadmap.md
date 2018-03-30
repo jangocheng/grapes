@@ -1,5 +1,7 @@
 # TODO
 
+* JWT 
+* webpack
 * home page
 * show github repositories
 * admin menu
