@@ -1,5 +1,6 @@
 # Grapes
-Grapes is a Spring Boot + Angular Web application.
+Grapes is a Spring Boot + Vue.js Web application.
+grape-skins is the frontend source, and grape-seeds is the backend source.
 
 
 ## Development
