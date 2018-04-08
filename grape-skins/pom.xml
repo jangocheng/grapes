@@ -16,7 +16,6 @@
     <node.version>v9.7.1</node.version>
     <yarn.version>v1.5.1</yarn.version>
     <maven.test.skip>false</maven.test.skip>
-    <!--<skipTests>${maven.test.skip}</skipTests>-->
 	</properties>
 	<build>
 		<plugins>
