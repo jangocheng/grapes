@@ -15,8 +15,9 @@
 		<frontend-maven-plugin.version>1.6</frontend-maven-plugin.version>
     <node.version>v9.7.1</node.version>
     <yarn.version>v1.5.1</yarn.version>
+    <maven.test.skip>false</maven.test.skip>
+    <!--<skipTests>${maven.test.skip}</skipTests>-->
 	</properties>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -51,6 +52,17 @@
 							<arguments>install</arguments>
 						</configuration>
 					</execution>
+          <!-- run tests -->
+          <execution>
+            <id>yarn run test</id>
+            <goals>
+              <goal>yarn</goal>
+            </goals>
+            <configuration>
+              <arguments>run test</arguments>
+              <skip>${maven.test.skip}</skip>
+            </configuration>
+          </execution>
 					<!-- Build and minify static files -->
 					<execution>
 						<id>yarn run build</id>
