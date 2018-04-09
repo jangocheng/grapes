@@ -28,6 +28,7 @@ What I want do?
 * github api
 * mock api
 * docker
+* swagger ui api doc
 
 
 ## 0.0.3
