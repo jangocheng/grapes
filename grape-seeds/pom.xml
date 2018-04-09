@@ -32,6 +32,7 @@
         <!-- These remain empty unless the corresponding profile is active -->
         <profile.no-liquibase />
         <profile.swagger />
+        <swagger-ui.version>2.2.2</swagger-ui.version>
 
         <!-- Dependency versions -->
         <jhipster-dependencies.version>0.1.8</jhipster-dependencies.version>
@@ -684,6 +685,13 @@
             <properties>
                 <profile.swagger>,swagger</profile.swagger>
             </properties>
+            <dependencies>
+                <dependency>
+                    <groupId>io.springfox</groupId>
+                    <artifactId>springfox-swagger-ui</artifactId>
+                    <version>${swagger-ui.version}</version>
+                </dependency>
+            </dependencies>
         </profile>
         <profile>
             <id>dev</id>

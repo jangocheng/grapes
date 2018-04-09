@@ -50,6 +50,9 @@ To ensure everything worked, run:
 
 Then navigate to [http://localhost:8080](http://localhost:8080) in your browser.
 
+## swagger-ui
+
+Active maven `swagger` profile and then navigate to [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html) in your browser 
 
 ## Testing
 
