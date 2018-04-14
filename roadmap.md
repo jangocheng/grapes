@@ -3,11 +3,11 @@ What I want do?
 做一个完整的前后端例子，包含基础功能，然后进行拆解、理解、消化吸收。
 
 ## 0.0.1
-* webpack:
+* `webpack:`
   + proxy: 9000 to 8080.
   + dev: auto build,auto refresh.
   + prod: build release files,hash and compress.
-* build release war by maven.
+* `build release war by maven`.
 * JWT and login
 * home page
 * http request by axios
