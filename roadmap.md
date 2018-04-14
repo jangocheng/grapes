@@ -33,3 +33,4 @@ What I want do?
 
 ## 0.0.3
 * upgrade spring boot to 2.0
+* Spring Cloud
