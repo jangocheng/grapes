@@ -66,27 +66,9 @@ Unit tests can be run with:
     yarn test
 
 
+## Style Guide
 
-## Using Docker to simplify development (optional)
-
-You can use Docker to improve your JHipster development experience. A number of docker-compose configuration are available in the [src/main/docker](src/main/docker) folder to launch required third party services.
-
-For example, to start a mysql database in a docker container, run:
-
-    docker-compose -f src/main/docker/mysql.yml up -d
-
-To stop it and remove the container, run:
-
-    docker-compose -f src/main/docker/mysql.yml down
-
-You can also fully dockerize your application and all the services that it depends on.
-To achieve this, first build a docker image of your app by running:
-
-    ./mvnw verify -Pprod dockerfile:build
-
-Then run:
-
-    docker-compose -f src/main/docker/app.yml up -d
+Please read the [vue.js official style guide][] for Vue-specific code.
 
 
 ## License
@@ -94,6 +76,7 @@ Then run:
 Licensed under [MIT][]. Copyright (c) 2018 [l10178][]
 
 [grapes]: https://github.com/l10178/grapes
+[vue.js official style guide]: https://cn.vuejs.org/v2/style-guide/index.html
 [MIT]: https://opensource.org/licenses/MIT
 [l10178]: http://nxest.com/
 [Node.js]: https://nodejs.org/
