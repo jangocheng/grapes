@@ -1,8 +1,6 @@
 <template>
   <div id="app">
 
-    <!--<img src="./assets/logo.png">-->
-    <!--<router-view/>-->
     <el-container>
       <el-header>Header</el-header>
       <el-container>
