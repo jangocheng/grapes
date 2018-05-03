@@ -1,8 +1,6 @@
 <template>
   <div id="app">
 
-    <!--<img src="./assets/logo.png">-->
-    <!--<router-view/>-->
     <el-container>
       <el-header>Header</el-header>
       <el-container>
@@ -19,15 +17,7 @@
   };
 </script>
 
-<style>
-  /*#app {*/
-    /*font-family: 'Avenir', Helvetica, Arial, sans-serif;*/
-    /*-webkit-font-smoothing: antialiased;*/
-    /*-moz-osx-font-smoothing: grayscale;*/
-    /*text-align: center;*/
-    /*color: #2c3e50;*/
-    /*margin-top: 60px;*/
-  /*}*/
+<style rel="stylesheet/scss" lang="scss" scoped>
 
   .el-header, .el-footer {
     background-color: #B3C0D1;
@@ -50,16 +40,8 @@
     line-height: 160px;
   }
 
-  body > .el-container {
-    margin-bottom: 40px;
-  }
-
-  /*.el-container:nth-child(5) .el-aside,*/
-  /*.el-container:nth-child(6) .el-aside {*/
-    /*line-height: 260px;*/
+  /*body > .el-container {*/
+    /*!*margin-bottom: 40px;*!*/
   /*}*/
 
-  /*.el-container:nth-child(7) .el-aside {*/
-    /*line-height: 320px;*/
-  /*}*/
 </style>
