@@ -1,18 +1,19 @@
-import axios from 'axios'
+import axios from 'axios';
 // import { Message } from 'element-ui'
 // import store from '@/store'
 // import { getToken } from '@/utils/auth'
 
 // create an axios instance
 const service = axios.create({
-  // baseURL: process.env.BASE_API,
-  timeout: 5000 // request timeout
+    // baseURL: process.env.BASE_API,
+    timeout: 5000 // request timeout
 });
 
 // // request interceptor
 // service.interceptors.request.use(config => {
 //   // Do something before request is sent
 //   if (store.getters.token) {
+// //setHeaders: {  Authorization: 'Bearer ' + token }
 //     config.headers['X-Token'] = getToken()
 //   }
 //   return config
@@ -62,4 +63,4 @@ const service = axios.create({
 //     return Promise.reject(error)
 //   });
 
-export default service
+export default service;
