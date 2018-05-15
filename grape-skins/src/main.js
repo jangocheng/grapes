@@ -9,7 +9,6 @@ import '@/assets/styles/index.scss';
 import app from './app';
 import router from './router';
 
-
 Vue.use(VueAxios, axios);
 
 Vue.use(ElementUI);
