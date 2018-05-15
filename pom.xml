@@ -14,12 +14,4 @@
         <module>grape-skins</module>
         <module>grape-seeds</module>
     </modules>
-
-    <!--<properties>-->
-        <!--&lt;!&ndash; Build properties &ndash;&gt;-->
-        <!--<maven.version>3.0.0</maven.version>-->
-    <!--</properties>-->
-
-
-
 </project>
