@@ -24,7 +24,7 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 'off',
       // TODO：please use LF 。try to fix the line break problem
-      'linebreak-style': ["info", "windows"],
+      'linebreak-style': ["warn", "windows"],
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   }
