@@ -68,7 +68,8 @@ Unit tests can be run with:
 
 ## Style Guide
 
-Please read the [vue.js official style guide][] for Vue-specific code.
+* Please read the [vue.js official style guide][] for Vue-specific code.
+* add the prefix `grp`.
 
 
 ## License
