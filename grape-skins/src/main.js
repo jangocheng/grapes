@@ -5,6 +5,7 @@ import axios from 'axios';
 import VueAxios from 'vue-axios';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import 'font-awesome/scss/font-awesome.scss';
 import '@/assets/styles/index.scss';
 import app from './app';
 import router from './router';

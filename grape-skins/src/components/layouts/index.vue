@@ -40,7 +40,7 @@
     }
 
     .el-main {
-        background-color: $body-bg;
+        //background-color: $body-bg;
     }
 
     .el-footer {
