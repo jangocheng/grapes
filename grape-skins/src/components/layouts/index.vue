@@ -4,8 +4,8 @@
             <grp-header></grp-header>
         </el-header>
         <el-container>
-            <el-aside width="200px">Aside</el-aside>
-            <el-main>Main</el-main>
+            <el-aside class="side-menu sidebar-inverse"></el-aside>
+            <el-main></el-main>
         </el-container>
     </el-container>
 </template>
@@ -20,26 +20,32 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
+    @import "../../assets/styles/variables";
 
-    .el-header, .el-footer {
-        background-color: #B3C0D1;
-        color: #333;
-        text-align: center;
-        line-height: 60px;
+    .el-aside.side-menu {
+        z-index: 100000;
+        position: fixed;
+        width: $app-aside-width !important;
+        height: 100%;
+        transition: all 0.25s;
+        &.sidebar-inverse {
+            background-color: $brand-black;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.08);
+        }
     }
 
-    .el-aside {
-        background-color: #D3DCE6;
-        color: #333;
-        text-align: center;
-        line-height: 200px;
+    .el-header {
+        background-color: $brand-info;
+        height: $app-header-height !important;
     }
 
     .el-main {
-        background-color: #E9EEF3;
-        color: #333;
-        text-align: center;
-        line-height: 160px;
+        background-color: $body-bg;
     }
+
+    .el-footer {
+        background-color: $brand-black;
+    }
+
 
 </style>

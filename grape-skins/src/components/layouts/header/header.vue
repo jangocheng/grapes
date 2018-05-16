@@ -1,5 +1,5 @@
 <template>
-    <div>This is header</div>
+    <div></div>
 </template>
 
 <script>
@@ -10,11 +10,5 @@
 
 <style rel="stylesheet/scss" lang="scss" scoped>
 
-    /*.el-header {*/
-        /*background-color: #B3C0D1;*/
-        /*color: #333;*/
-        /*text-align: center;*/
-        /*line-height: 60px;*/
-    /*}*/
 
 </style>
