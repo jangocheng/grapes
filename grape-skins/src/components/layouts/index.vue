@@ -12,7 +12,6 @@
 
 <script>
     import GrpHeader from './header/header';
-
     export default {
         name: 'GrpLayouts',
         components: {GrpHeader},
@@ -35,9 +34,8 @@
     }
 
     .el-header {
-        padding: 10px 15px;
-        background-color: $brand-info;
-        height: $app-header-height !important;
+        padding: 0;
+        height: $app-header-height!important;
     }
 
     .el-main {
@@ -47,6 +45,4 @@
     .el-footer {
         background-color: $brand-black;
     }
-
-
 </style>

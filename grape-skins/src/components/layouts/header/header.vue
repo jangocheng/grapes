@@ -1,11 +1,4 @@
 <template>
-    <!--<div class="navbar" mode="horizontal">-->
-    <!--<a href="https://github.com/l10178/grapes"-->
-    <!--class="dropdown-toggle navlink"-->
-    <!--target="_blank" role="button">-->
-    <!--<i class="fa fa-github fa-2x"></i>-->
-    <!--</a>-->
-    <!--</div>-->
     <b-navbar toggleable="md" type="dark" variant="info">
 
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
@@ -13,7 +6,6 @@
         <b-navbar-brand href="#">NavBar</b-navbar-brand>
 
         <b-collapse is-nav id="nav_collapse">
-
             <b-navbar-nav>
                 <b-nav-item href="#">Link</b-nav-item>
                 <b-nav-item href="#" disabled>Disabled</b-nav-item>
@@ -21,7 +13,6 @@
 
             <!-- Right aligned nav items -->
             <b-navbar-nav class="ml-auto">
-
                 <b-nav-item-dropdown text="Lang" right>
                     <b-dropdown-item href="#">EN</b-dropdown-item>
                     <b-dropdown-item href="#">ES</b-dropdown-item>
@@ -51,8 +42,8 @@
 
 <style rel="stylesheet/scss" lang="scss" scoped>
 
-    .navbar {
-        text-align: right;
-    }
+    /*.navbar {*/
+        /*text-align: right;*/
+    /*}*/
 
 </style>
