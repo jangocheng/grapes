@@ -42,8 +42,5 @@
 
 <style rel="stylesheet/scss" lang="scss" scoped>
 
-    /*.navbar {*/
-        /*text-align: right;*/
-    /*}*/
 
 </style>

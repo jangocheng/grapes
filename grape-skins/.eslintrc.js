@@ -23,8 +23,8 @@ module.exports = {
     rules: {
         // allow async-await
         'generator-star-spacing': 'off',
-        'linebreak-style': ['error', 'windows'],
-        "max-len":[1,120],
+        'linebreak-style': ['error', 'unix'],
+        "max-len": [1, 120],
         // allow debugger during development
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     },
