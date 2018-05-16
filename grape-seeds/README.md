@@ -65,6 +65,10 @@ Unit tests can be run with:
 
     yarn test
 
+## Run spotbugs
+To generate spotbugs reports, run maven command:
+
+    mvn clean compile site
 
 
 ## Using Docker to simplify development (optional)

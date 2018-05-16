@@ -35,6 +35,7 @@
     }
 
     .el-header {
+        padding: 10px 15px;
         background-color: $brand-info;
         height: $app-header-height !important;
     }
