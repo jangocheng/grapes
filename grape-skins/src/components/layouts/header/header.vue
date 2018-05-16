@@ -17,7 +17,6 @@
 <style rel="stylesheet/scss" lang="scss" scoped>
 
     .navbar{
-        background-color: ;
         text-align: right;
     }
 
