@@ -3,25 +3,30 @@
 
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-        <b-navbar-brand href="#">NavBar</b-navbar-brand>
+        <b-navbar-brand href="#">Grapes</b-navbar-brand>
 
         <b-collapse is-nav id="nav_collapse">
-            <b-navbar-nav>
-                <b-nav-item href="#">Link</b-nav-item>
-                <b-nav-item href="#" disabled>Disabled</b-nav-item>
-            </b-navbar-nav>
-
             <!-- Right aligned nav items -->
             <b-navbar-nav class="ml-auto">
+
+                <b-nav-item-dropdown right>
+                    <template slot="button-content">
+                        <i class="fa fa-github fa-2x"></i>
+                    </template>
+                    <b-dropdown-item href="https://github.com/l10178/grapes" target="_blank">grapes</b-dropdown-item>
+                    <b-dropdown-item href="https://github.com/l10178/bits-pieces" target="_blank">bits-pieces
+                    </b-dropdown-item>
+                    <b-dropdown-item href="https://github.com/l10178/angular-pretty-size"
+                                     target="_blank">angular-pretty-size
+                    </b-dropdown-item>
+                </b-nav-item-dropdown>
+
                 <b-nav-item-dropdown text="Lang" right>
-                    <b-dropdown-item href="#">EN</b-dropdown-item>
-                    <b-dropdown-item href="#">ES</b-dropdown-item>
-                    <b-dropdown-item href="#">RU</b-dropdown-item>
-                    <b-dropdown-item href="#">FA</b-dropdown-item>
+                    <b-dropdown-item href="#">English</b-dropdown-item>
+                    <b-dropdown-item href="#">Chinese</b-dropdown-item>
                 </b-nav-item-dropdown>
 
                 <b-nav-item-dropdown right>
-                    <!-- Using button-content slot -->
                     <template slot="button-content">
                         <em>User</em>
                     </template>
