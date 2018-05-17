@@ -23,14 +23,9 @@
                         </b-dropdown-item>
                     </b-nav-item-dropdown>
 
-                    <b-nav-item-dropdown text="Lang" right>
-                        <b-dropdown-item href="#">English</b-dropdown-item>
-                        <b-dropdown-item href="#">Chinese</b-dropdown-item>
-                    </b-nav-item-dropdown>
-
                     <b-nav-item-dropdown right>
                         <template slot="button-content">
-                            <em>User</em>
+                            <i class="fa fa-user-o fa-2x"></i>
                         </template>
                         <b-dropdown-item href="#">Profile</b-dropdown-item>
                         <b-dropdown-item href="#">Register</b-dropdown-item>
@@ -64,6 +59,7 @@
 </template>
 
 <script>
+    const resourceUrl = '/api/authenticate';
     export default {
         name: 'GrpHeader',
         data() {
@@ -77,9 +73,9 @@
             };
         },
         methods: {
-            login: function() {
+            login: function () {
                 this.signinFormVisible = false;
-                // this.axios.post('/test', this.user);
+                this.axios.post(resourceUrl, this.user);
             },
         },
     };

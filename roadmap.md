@@ -35,3 +35,4 @@ What I want do?
 * upgrade spring boot to 2.0
 * Spring Cloud
 * liquibase
+* form validation: java validation
