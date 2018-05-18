@@ -14,16 +14,28 @@ import app from './app';
 import router from './router';
 import '@/assets/styles/index.scss';
 
+Vue.use(ElementUI);
+Vue.use(BootstrapVue);
+
 let storageOptions = {
     namespace: 'grapes_',
     name: 'sessionStorage',
     storage: 'session',
 };
-
-Vue.use(ElementUI);
-Vue.use(BootstrapVue);
 Vue.use(Storage, storageOptions);
-Vue.use(VueAxios, axios);
+
+let getToken = function() {
+    return Vue.sessionStorage.get('authenticationToken');
+};
+
+let axiosInstance = axios.create({
+    timeout: 50000,
+    headers: {
+        Authorization: 'Bearer ' + getToken(),
+    },
+});
+
+Vue.use(VueAxios, axiosInstance);
 
 Vue.config.productionTip = false;
 

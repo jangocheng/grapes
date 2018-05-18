@@ -59,6 +59,8 @@
 </template>
 
 <script>
+    import Vue from 'vue';
+
     const loginUrl = '/api/authenticate';
     export default {
         name: 'GrpHeader',
@@ -75,12 +77,11 @@
         methods: {
             login: function() {
                 this.loginFormVisible = false;
-                let _this = this;
                 this.axios.post(loginUrl, this.user).then(function(response) {
                     const bearerToken = response.headers.authorization;
                     if (bearerToken && bearerToken.slice(0, 7) === 'Bearer ') {
                         const jwt = bearerToken.slice(7, bearerToken.length);
-                        _this.$sessionStorage.set('authenticationToken', jwt);
+                        Vue.sessionStorage.set('authenticationToken', jwt);
                     }
                 });
             },
