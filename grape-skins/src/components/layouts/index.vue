@@ -35,7 +35,7 @@
 
     .el-header {
         padding: 0;
-        height: $app-header-height!important;
+        //height: $app-header-height!important;
     }
 
     .el-main {
