@@ -6,18 +6,24 @@ import VueAxios from 'vue-axios';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import 'font-awesome/scss/font-awesome.scss';
-import '@/assets/styles/index.scss';
-import app from './app';
-import router from './router';
 import BootstrapVue from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
+import Storage from 'vue-ls';
+import app from './app';
+import router from './router';
+import '@/assets/styles/index.scss';
 
-
-Vue.use(VueAxios, axios);
+let storageOptions = {
+    namespace: 'grapes_',
+    name: 'sessionStorage',
+    storage: 'session',
+};
 
 Vue.use(ElementUI);
 Vue.use(BootstrapVue);
+Vue.use(Storage, storageOptions);
+Vue.use(VueAxios, axios);
 
 Vue.config.productionTip = false;
 

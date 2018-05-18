@@ -30,7 +30,7 @@
                         <b-dropdown-item href="#">Profile</b-dropdown-item>
                         <b-dropdown-item href="#">Register</b-dropdown-item>
 
-                        <b-dropdown-item href="#" @click="signinFormVisible = true">
+                        <b-dropdown-item href="#" @click="loginFormVisible = true">
                             <el-button type="text">Sign In</el-button>
                         </b-dropdown-item>
                         <b-dropdown-item href="#">Sign Out</b-dropdown-item>
@@ -41,7 +41,7 @@
         </b-navbar>
 
 
-        <el-dialog title="Sign In" :visible.sync="signinFormVisible">
+        <el-dialog title="Sign In" :visible.sync="loginFormVisible">
             <el-form :model="user">
                 <el-form-item label="Username" :label-width="formLabelWidth">
                     <el-input type="text" v-model="user.username" auto-complete="off" required></el-input>
@@ -51,7 +51,7 @@
                 </el-form-item>
             </el-form>
             <div slot="footer" class="dialog-footer">
-                <el-button @click="signinFormVisible = false">Cancel</el-button>
+                <el-button @click="loginFormVisible = false">Cancel</el-button>
                 <el-button type="primary" @click="login()">Submit</el-button>
             </div>
         </el-dialog>
@@ -59,12 +59,12 @@
 </template>
 
 <script>
-    const resourceUrl = '/api/authenticate';
+    const loginUrl = '/api/authenticate';
     export default {
         name: 'GrpHeader',
         data() {
             return {
-                signinFormVisible: false,
+                loginFormVisible: false,
                 user: {
                     username: '',
                     password: '',
@@ -73,9 +73,16 @@
             };
         },
         methods: {
-            login: function () {
-                this.signinFormVisible = false;
-                this.axios.post(resourceUrl, this.user);
+            login: function() {
+                this.loginFormVisible = false;
+                let _this = this;
+                this.axios.post(loginUrl, this.user).then(function(response) {
+                    const bearerToken = response.headers.authorization;
+                    if (bearerToken && bearerToken.slice(0, 7) === 'Bearer ') {
+                        const jwt = bearerToken.slice(7, bearerToken.length);
+                        _this.$sessionStorage.set('authenticationToken', jwt);
+                    }
+                });
             },
         },
     };
