@@ -29,6 +29,7 @@ let localStorage = {
     name: 'localStorage',
     storage: 'local',
 };
+/** @namespace Vue.lodash */
 Vue.use(Vue.lodash.clone(Storage), sessionStorage);
 Vue.use(Vue.lodash.clone(Storage), localStorage);
 

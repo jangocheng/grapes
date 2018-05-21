@@ -5,7 +5,7 @@
                 <grp-header></grp-header>
             </el-header>
             <el-container>
-                <el-aside class="side-menu sidebar-inverse"></el-aside>
+                <!--<el-aside class="side-menu sidebar-inverse"></el-aside>-->
                 <el-main>
                     <router-view/>
                 </el-main>
