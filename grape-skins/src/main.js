@@ -1,6 +1,7 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
+import VueLodash from 'vue-lodash';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
 import ElementUI from 'element-ui';
@@ -14,19 +15,30 @@ import app from './app';
 import router from './router';
 import '@/assets/styles/index.scss';
 
+Vue.use(VueLodash, {name: 'lodash'});
 Vue.use(ElementUI);
 Vue.use(BootstrapVue);
 
-let storageOptions = {
+let sessionStorage = {
     namespace: 'grapes_',
     name: 'sessionStorage',
     storage: 'session',
 };
-Vue.use(Storage, storageOptions);
-
-let getToken = function() {
-    return Vue.sessionStorage.get('authenticationToken');
+let localStorage = {
+    namespace: 'grapes_',
+    name: 'localStorage',
+    storage: 'local',
 };
+Vue.use(Vue.lodash.clone(Storage), sessionStorage);
+Vue.use(Vue.lodash.clone(Storage), localStorage);
+
+/**
+ * read token from storage
+ * @return {string} authentication token
+ */
+function getToken() {
+    return Vue.sessionStorage.get('authenticationToken');
+}
 
 let axiosInstance = axios.create({
     timeout: 50000,
