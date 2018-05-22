@@ -44,7 +44,7 @@
                                         <div class="card dark summary-inline">
                                             <div class="card-body">
                                                 <i class="icon fa fa-users fa-3x"></i>
-                                                <div class="content" ng-cloak>
+                                                <div class="content">
                                                     <div class="title">{{contributors}}</div>
                                                     <div class="sub-title">Contributors</div>
                                                 </div>
@@ -64,22 +64,61 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
+                        <h2 class="heading">What is Grapes?</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                <div class="row text-center">
+                <span class="title text-center">
+                    <div class="head-icons">
+                        <a href="http://projects.spring.io/spring-boot/" target="_blank">
+                            <img src="../../assets/images/third/logo-spring-boot.png"
+                                 class="project-icon img-responsive">
+                        </a>
+                        <i class="fa fa-4x">+</i>
+                        <a href="https://cn.vuejs.org/" target="_blank">
+                            <img src="../../assets/images/third/logo-vue.png" class="project-icon img-responsive">
+                        </a>
+                        <i class="fa fa-4x">=</i>
+                        <a href="/">
+                            <img src="../../assets/images/logo/logo.png" class="project-icon img-responsive">
+                        </a>
+                    </div>
+                    <p class="lead">
+                        Grapes is a
+                        <a class="dark" href="http://projects.spring.io/spring-boot/" target="_blank">Spring Boot</a> +
+                        <a class="dark" href="https://cn.vuejs.org/" target="_blank">Vue.js</a> Web application.
+                        <br>
+                    </p>
+                </span>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="heading">Goal</h2>
+                        <p>
+                            Our goal is to generate for you a complete and modern Web app or microservice architecture,
+                            unifying:
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="heading">Sample &amp; Sources</h2>
+                        <p>
+                            You can checkout a sample application
+                            <a href="https://github.com/l10178/grapes" target="_blank">here</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
                         <h2 class="heading">Grapes news and events</h2>
                         <hr class="star-primary">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        No news is good news。能有什么事发生呢，也许能看到的消息是：
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div>
-                            <ul>
-                                <li>2017年，l10178提交了代码。</li>
-                            </ul>
-                        </div>
+                        No news is good news.
                     </div>
                 </div>
             </div>
@@ -134,7 +173,8 @@
                     font-size: 1.5em;
                     text-decoration: none;
                 }
-                .description {}
+                .description {
+                }
             }
             .pull-right {
                 padding: 0.5em 1em;
@@ -167,7 +207,8 @@
     .card.summary-inline {
         .card-body {
             padding: 20px;
-            .icon {}
+            .icon {
+            }
             .content {
                 float: right;
                 .title {
@@ -381,11 +422,16 @@
         }
         .title {
             padding: 15px;
+            width: 100%;
             .head-icons {
                 margin: 0 0 20px;
                 a {
                     display: inline-block;
                     vertical-align: top;
+                }
+                & img {
+                    height: 80px;
+                    width: 80px;
                 }
             }
         }
@@ -527,6 +573,5 @@
 
         }
     }
-
 
 </style>

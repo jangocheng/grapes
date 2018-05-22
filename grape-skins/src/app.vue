@@ -9,10 +9,12 @@
                 <el-main>
                     <router-view/>
                 </el-main>
+                <el-footer>
+                    Copyright © <a href="http://nxest.com" target="_blank">nxest.com</a> 2018
+                </el-footer>
             </el-container>
         </el-container>
     </div>
-
 </template>
 
 <script>
@@ -41,10 +43,18 @@
 
     .el-header {
         padding: 0;
+        background-color: $brand-black;
         //height: $app-header-height!important;
+    }
+    .el-footer {
+        background-color: $brand-black;
+        color: $brand-light;
+        text-align: center;
+        line-height: 60px;
     }
 
     .el-main {
+        padding: 0;
         //background-color: $body-bg;
     }
 
