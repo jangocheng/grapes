@@ -77,7 +77,7 @@
                         </a>
                         <i class="fa fa-4x">+</i>
                         <a href="https://cn.vuejs.org/" target="_blank">
-                            <img src="../../assets/images/third/logo-vue.png" class="project-icon img-responsive">
+                            <img src="../../assets/images/third/vuejs.png" class="project-icon img-responsive">
                         </a>
                         <i class="fa fa-4x">=</i>
                         <a href="/">
@@ -180,7 +180,7 @@
                         </li>
 
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/logo-vue.png"/>
+                            <img src="../../assets/images/third/vuejs.png"/>
                             <span class="title_sub_tech">Vue.js</span>
                         </li>
                         <li class="clip img-circle">
