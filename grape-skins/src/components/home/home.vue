@@ -287,7 +287,7 @@
                             <span class="title-sub-tech">MongoDB</span>
                         </li>
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third//cassandra.svg" class="invert-hover-white"/>
+                            <img src="../../assets/images/third/cassandra.svg" class="invert-hover-white"/>
                             <span class="title-sub-tech">Cassandra</span>
                         </li>
                         <li class="clip img-circle new">
