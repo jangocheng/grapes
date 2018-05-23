@@ -164,9 +164,61 @@
                         <hr class="star-primary">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                    </div>
+                <div class="row stack-container no-margin">
+                    <ul class="text-center stacks">
+                        <li class="clip img-circle">
+                            <img src="../../assets/images/third/html-5.svg" />
+                            <span class="title_sub_tech">HTML5</span>
+                        </li>
+                        <li class="clip img-circle">
+                            <img src="../../assets/images/third/css-3.svg" />
+                            <span class="title_sub_tech">CSS3</span>
+                        </li>
+                        <li class="clip img-circle">
+                            <img src="../../assets/images/third/bootstrap.svg" />
+                            <span class="title_sub_tech">Bootstrap</span>
+                        </li>
+
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/logo-vue.png" />
+                            <span class="title_sub_tech">Vue.js</span>
+                        </li>
+                        <li class="clip img-circle">
+                            <img src="../../assets/images/third/jquery.svg" class="width invert-hover"/>
+                            <span class="title_sub_tech">JQuery</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/websocket.png" class="invert"/>
+                            <span class="title_sub_tech">Websockets</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/yarn.svg"/>
+                            <span class="title_sub_tech">Yarn</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/webpack.svg"/>
+                            <span class="title_sub_tech">Webpack</span>
+                        </li>
+
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/sass.svg" class="height" />
+                            <span class="title_sub_tech">Sass</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/browsersync.svg" />
+                            <span class="title_sub_tech">Browsersync</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/karma.svg" />
+                            <span class="title_sub_tech">Karma</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/protarctor.png" />
+                            <span class="title_sub_tech">Protractor</span>
+                        </li>
+
+                        <li class="clear"></li>
+                    </ul>
                 </div>
             </div>
             <div class="container">
@@ -176,9 +228,114 @@
                         <hr class="star-primary">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                    </div>
+                <div class="row stack-container no-margin">
+                    <ul class="text-center stacks">
+                        <li class="clip img-circle">
+                            <img src="../../assets/images/third/spring-boot.png" />
+                            <span class="title_sub_tech">Spring Boot</span>
+                        </li>
+                        <li class="clip img-circle">
+                            <img src="../../assets/images/third/spring.png"/>
+                            <span class="title_sub_tech">Spring Security</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/netflix.png"/>
+                            <span class="title_sub_tech">Netflix OSS</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/consul.svg"/>
+                            <span class="title_sub_tech">Consul</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/gradle-new.png" class="invert-hover-white"/>
+                            <span class="title_sub_tech">Gradle</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/maven.png" class="invert-hover-white width" />
+                            <span class="title_sub_tech">Maven</span>
+                        </li>
+                        <li class="clip img-circle">
+                            <img src="../../assets/images/third/hibernate.svg" />
+                            <span class="title_sub_tech">Hibernate</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/liquibase.gif" class="width" />
+                            <span class="title_sub_tech">Liquibase</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/mysql.svg" />
+                            <span class="title_sub_tech">MySQL</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/mariadb.svg" />
+                            <span class="title_sub_tech">MariaDB</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/postgresql.svg" class="height" />
+                            <span class="title_sub_tech">PostgreSQL</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/oracle.svg" class="width" />
+                            <span class="title_sub_tech">Oracle</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/mssql.png"/>
+                            <span class="title_sub_tech">MS SQL</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/mongo.png" />
+                            <span class="title_sub_tech">MongoDB</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third//cassandra.svg" class="invert-hover-white" />
+                            <span class="title_sub_tech">Cassandra</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/ehcache.png" />
+                            <span class="title_sub_tech">EhCache</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/Hazelcast.png" class="invert-hover-white"/>
+                            <span class="title_sub_tech">Hazelcast</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/infinispan.png" />
+                            <span class="title_sub_tech">Infinispan</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/elasticsearch.svg"/>
+                            <span class="title_sub_tech">ElasticSearch</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/kafka.svg" class="invert-hover-white"/>
+                            <span class="title_sub_tech">Kafka</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/swagger.png"/>
+                            <span class="title_sub_tech">Swagger</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/elk-stack.png" class="invert-hover-white"/>
+                            <span class="title_sub_tech">ELK Stack</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/prometheus.svg"/>
+                            <span class="title_sub_tech">Prometheus</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/thymeleaf.png"/>
+                            <span class="title_sub_tech">Thymeleaf</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/gatling.png"/>
+                            <span class="title_sub_tech">Gatling</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/cucumber.svg"/>
+                            <span class="title_sub_tech">Cucumber</span>
+                        </li>
+                        <li class="clear"></li>
+                    </ul>
                 </div>
             </div>
 
@@ -189,9 +346,42 @@
                         <hr class="star-primary">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                    </div>
+                <div class="row stack-container no-margin">
+                    <ul class="text-center stacks">
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/docker.svg"/>
+                            <span class="title_sub_tech">Docker</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/kubernets.svg"/>
+                            <span class="title_sub_tech">Kubernetes</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/heroku.svg"/>
+                            <span class="title_sub_tech">Heroku</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/cf.png" class="invert-hover-white"/>
+                            <span class="title_sub_tech">CloudFoundry</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/aws.svg" class="width"/>
+                            <span class="title_sub_tech">AWS</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/boxfuse.svg"/>
+                            <span class="title_sub_tech">Boxfuse</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/rancher.svg" class="width"/>
+                            <span class="title_sub_tech">Rancher</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/openshift.svg"/>
+                            <span class="title_sub_tech">OpenShift</span>
+                        </li>
+                        <li class="clear"></li>
+                    </ul>
                 </div>
             </div>
             <div class="container">
@@ -201,9 +391,26 @@
                         <hr class="star-primary">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                    </div>
+                <div class="row stack-container no-margin">
+                    <ul class="text-center stacks">
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/jenkins.svg"/>
+                            <span class="title_sub_tech">Jenkins</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/travis.svg"/>
+                            <span class="title_sub_tech">Travis CI</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/gitlab.svg"/>
+                            <span class="title_sub_tech">Gitlab CI</span>
+                        </li>
+                        <li class="clip img-circle new">
+                            <img src="../../assets/images/third/circleci.svg"/>
+                            <span class="title_sub_tech">Circle CI</span>
+                        </li>
+                        <li class="clear"></li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -664,6 +871,108 @@
 
     .text-body {
         font-size: 1.2em;
+    }
+
+    .stack-container {
+        margin-bottom: 50px;
+    }
+
+    .stacks {
+        margin: 0 auto;
+        list-style: none;
+        padding: 0 100px 0 100px;
+        max-width: 1200px;
+        .clip {
+            margin: 5px;
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            border: 1px solid white;
+            color: $dark-blue;
+            float: left;
+            text-align: center;
+            &.img-circle {
+                -webkit-border-radius: 500px;
+                -moz-border-radius: 500px;
+                border-radius: 500px;
+            }
+            i {
+                display: block;
+                padding-top: 25px;
+                font-size: 4.8em;
+            }
+            img {
+                padding-top: 25px;
+                display: block;
+                margin: 0 auto;
+                height: 100px;
+                &.height {
+                    height: 100px;
+                    width: auto;
+                }
+                &.width {
+                    height: auto;
+                    width: 100px;
+                    margin: 28px auto;
+                }
+                &.white {
+                    -webkit-filter: grayscale(100%) brightness(1.5);
+                    filter: grayscale(100%) brightness(1.5);
+                }
+                &.white-inv {
+                    -webkit-filter: grayscale(100%) brightness(1.5) invert(100%);
+                    filter: grayscale(100%) brightness(1.5) invert(100%);
+                }
+                &.invert {
+                    -webkit-filter: invert(100%);
+                    filter: invert(100%);
+                }
+                &.saturate {
+                    -webkit-filter: saturate(3);
+                    filter: saturate(3);
+                }
+                &.grayscale {
+                    -webkit-filter: grayscale(100%);
+                    filter: grayscale(100%);
+                }
+                &.brightness {
+                    -webkit-filter: brightness(0.25);
+                    filter: brightness(0.25);
+                }
+                &.contrast {
+                    -webkit-filter: contrast(160%);
+                    filter: contrast(160%);
+                }
+            }
+            .title_sub_tech {
+                margin-top: 5px;
+                font-size: 13px;
+                color: $dark-blue;
+                display: block;
+                text-align: center;
+            }
+            &:hover {
+                background-color: $dark-blue;
+                border: 1px solid $dark-blue;
+                color: white;
+                img {
+                    -webkit-filter: grayscale(100%) brightness(1.5);
+                    filter: grayscale(100%) brightness(1.5);
+                    &.invert-hover {
+                        -webkit-filter: invert(100%);
+                        filter: invert(100%);
+                    }
+                    &.invert-hover-white {
+                        -webkit-filter: grayscale(100%) brightness(1.5) invert(100%);
+                        filter: grayscale(100%) brightness(1.5) invert(100%);
+                    }
+                }
+                .title_sub_tech {
+                    color: white;
+                }
+            }
+
+        }
     }
 
 </style>
