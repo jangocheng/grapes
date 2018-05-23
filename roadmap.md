@@ -39,3 +39,4 @@ What I want do?
 * em or px
 * use strict versions for third-party libraries
 * 全文搜索
+* fontawesome5 && vue-fontawesome
