@@ -164,7 +164,7 @@
                         <hr class="star-light">
                     </div>
                 </div>
-                <div class="row stack-container no-margin">
+                <div class="row stack-container">
                     <ul class="text-center stacks">
                         <li class="clip img-circle">
                             <img src="../../assets/images/third/html-5.svg"/>
@@ -228,7 +228,7 @@
                         <hr class="star-light">
                     </div>
                 </div>
-                <div class="row stack-container no-margin">
+                <div class="row stack-container">
                     <ul class="text-center stacks">
                         <li class="clip img-circle">
                             <img src="../../assets/images/third/spring-boot.png"/>
@@ -346,7 +346,7 @@
                         <hr class="star-light">
                     </div>
                 </div>
-                <div class="row stack-container no-margin">
+                <div class="row stack-container">
                     <ul class="text-center stacks">
                         <li class="clip img-circle new">
                             <img src="../../assets/images/third/docker.svg"/>
@@ -391,7 +391,7 @@
                         <hr class="star-light">
                     </div>
                 </div>
-                <div class="row stack-container no-margin">
+                <div class="row stack-container">
                     <ul class="text-center stacks">
                         <li class="clip img-circle new">
                             <img src="../../assets/images/third/jenkins.svg"/>
@@ -541,16 +541,16 @@
         }
     }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        text-transform: capitalize;
-        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-weight: 700;
-    }
+    /*h1,*/
+    /*h2,*/
+    /*h3,*/
+    /*h4,*/
+    /*h5,*/
+    /*h6 {*/
+        /*text-transform: capitalize;*/
+        /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+        /*font-weight: 700;*/
+    /*}*/
 
     hr {
         &.star-light,
@@ -626,6 +626,7 @@
                 margin: 0 auto;
             }
             .brand {
+                margin-bottom: 15px;
                 font-size: 5em;
                 font-family: 'Pacifico', cursive;
                 text-transform: capitalize;
@@ -714,9 +715,6 @@
         ul {
             font-size: 1.2em;
         }
-        .brand {
-            margin-bottom: 15px;
-        }
         .card {
             margin-bottom: 5px;
             .card-body {
@@ -748,14 +746,10 @@
         }
     }
 
-    .stack-container {
-        margin-bottom: 50px;
-    }
-
     .stacks {
         margin: 0 auto;
         list-style: none;
-        padding: 0 100px;
+        padding: 0 50px;
         max-width: 1200px;
         .clip {
             margin: 5px;
@@ -860,105 +854,7 @@
     }
 
     .stack-container {
-        margin-bottom: 50px;
-    }
-
-    .stacks {
-        margin: 0 auto;
-        list-style: none;
-        padding: 0 100px 0 100px;
-        max-width: 1200px;
-        .clip {
-            margin: 5px;
-            width: 150px;
-            height: 150px;
-            background-color: white;
-            border: 1px solid white;
-            color: $dark-blue;
-            float: left;
-            text-align: center;
-            &.img-circle {
-                -webkit-border-radius: 500px;
-                -moz-border-radius: 500px;
-                border-radius: 500px;
-            }
-            i {
-                display: block;
-                padding-top: 25px;
-                font-size: 4.8em;
-            }
-            img {
-                padding-top: 25px;
-                display: block;
-                margin: 0 auto;
-                height: 100px;
-                &.height {
-                    height: 100px;
-                    width: auto;
-                }
-                &.width {
-                    height: auto;
-                    width: 100px;
-                    margin: 28px auto;
-                }
-                &.white {
-                    -webkit-filter: grayscale(100%) brightness(1.5);
-                    filter: grayscale(100%) brightness(1.5);
-                }
-                &.white-inv {
-                    -webkit-filter: grayscale(100%) brightness(1.5) invert(100%);
-                    filter: grayscale(100%) brightness(1.5) invert(100%);
-                }
-                &.invert {
-                    -webkit-filter: invert(100%);
-                    filter: invert(100%);
-                }
-                &.saturate {
-                    -webkit-filter: saturate(3);
-                    filter: saturate(3);
-                }
-                &.grayscale {
-                    -webkit-filter: grayscale(100%);
-                    filter: grayscale(100%);
-                }
-                &.brightness {
-                    -webkit-filter: brightness(0.25);
-                    filter: brightness(0.25);
-                }
-                &.contrast {
-                    -webkit-filter: contrast(160%);
-                    filter: contrast(160%);
-                }
-            }
-            .title-sub-tech {
-                margin-top: 5px;
-                font-size: 13px;
-                color: $dark-blue;
-                display: block;
-                text-align: center;
-            }
-            &:hover {
-                background-color: $dark-blue;
-                border: 1px solid $dark-blue;
-                color: white;
-                img {
-                    -webkit-filter: grayscale(100%) brightness(1.5);
-                    filter: grayscale(100%) brightness(1.5);
-                    &.invert-hover {
-                        -webkit-filter: invert(100%);
-                        filter: invert(100%);
-                    }
-                    &.invert-hover-white {
-                        -webkit-filter: grayscale(100%) brightness(1.5) invert(100%);
-                        filter: grayscale(100%) brightness(1.5) invert(100%);
-                    }
-                }
-                .title-sub-tech {
-                    color: white;
-                }
-            }
-
-        }
+        margin: 0 0 50px 0;
     }
 
 </style>
