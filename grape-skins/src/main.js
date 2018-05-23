@@ -5,6 +5,7 @@ import VueLodash from 'vue-lodash';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
 import ElementUI from 'element-ui';
+import 'typeface-pacifico/index.css';
 import 'element-ui/lib/theme-chalk/index.css';
 import 'font-awesome/scss/font-awesome.scss';
 import BootstrapVue from 'bootstrap-vue';

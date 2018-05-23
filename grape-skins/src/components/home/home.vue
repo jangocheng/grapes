@@ -1,6 +1,6 @@
 <template>
     <div>
-        <header class="home-section">
+        <header>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -60,7 +60,7 @@
             </div>
         </header>
 
-        <section id="about" class="home-section">
+        <section id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -156,12 +156,12 @@
             </div>
         </section>
         <!--technology stack-->
-        <section id="technology-stack">
+        <section id="technology-stack" class="stack-section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="heading">Client Side Stack</h2>
-                        <hr class="star-primary">
+                        <hr class="star-light">
                     </div>
                 </div>
                 <div class="row stack-container no-margin">
@@ -225,7 +225,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="heading">Server Side Stack</h2>
-                        <hr class="star-primary">
+                        <hr class="star-light">
                     </div>
                 </div>
                 <div class="row stack-container no-margin">
@@ -343,7 +343,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="heading">Deployment</h2>
-                        <hr class="star-primary">
+                        <hr class="star-light">
                     </div>
                 </div>
                 <div class="row stack-container no-margin">
@@ -388,7 +388,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="heading">CI/CD</h2>
-                        <hr class="star-primary">
+                        <hr class="star-light">
                     </div>
                 </div>
                 <div class="row stack-container no-margin">
@@ -518,7 +518,6 @@
         }
     }
 
-
     body {
         overflow-x: hidden;
     }
@@ -628,6 +627,7 @@
             }
             .brand {
                 font-size: 5em;
+                font-family: 'Pacifico', cursive;
                 text-transform: capitalize;
             }
             .stats {
@@ -852,6 +852,11 @@
 
     .text-body {
         font-size: 1.2em;
+    }
+
+    .stack-section {
+        color: #fff;
+        background: $primary-color;
     }
 
     .stack-container {
