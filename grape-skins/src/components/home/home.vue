@@ -96,9 +96,14 @@
                     <div class="col-md-6">
                         <h2 class="heading">Goal</h2>
                         <p>
-                            Our goal is to generate for you a complete and modern Web app or microservice architecture,
+                            Our goal is to generate for you a complete and modern Web app or micro service architecture,
                             unifying:
                         </p>
+                        <ul>
+                            <li>A high-performance and robust Java stack on the server side with Spring Boot</li>
+                            <li>A sleek, modern, mobile-first front-end with Vue.js and Bootstrap</li>
+                            <li>A powerful workflow to build your application with Webpack and Maven</li>
+                        </ul>
                     </div>
                     <div class="col-md-6">
                         <h2 class="heading">Sample &amp; Sources</h2>
@@ -106,6 +111,13 @@
                             You can checkout a sample application
                             <a href="https://github.com/l10178/grapes" target="_blank">here</a>.
                         </p>
+                        <ul>
+                            <li> If you want to code with us, feel free to join!</li>
+                            <li> If you like the project, please give us a star on GitHub</li>
+                            <li> I think you will like
+                                <a href="https://www.jhipster.tech/" target="_blank">JHipster</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
