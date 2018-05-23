@@ -38,3 +38,4 @@ What I want do?
 * form validation: java validation
 * em or px
 * use strict versions for third-party libraries
+* 全文搜索

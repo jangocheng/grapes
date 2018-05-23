@@ -112,13 +112,65 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="heading">Grapes news and events</h2>
+                        <h2 class="heading">Grapes Quick Start</h2>
                         <hr class="star-primary">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        No news is good news.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--technology stack-->
+        <section id="technology-stack">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="heading">Client Side Stack</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="heading">Server Side Stack</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="heading">Deployment</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="heading">CI/CD</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
                     </div>
                 </div>
             </div>
@@ -479,7 +531,7 @@
     .stacks {
         margin: 0 auto;
         list-style: none;
-        padding: 0px 100px 0 100px;
+        padding: 0 100px;
         max-width: 1200px;
         .clip {
             margin: 5px;
