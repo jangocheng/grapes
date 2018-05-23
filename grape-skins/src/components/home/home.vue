@@ -117,12 +117,32 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-lg-12">
+                        <ol class="text-body">
+                            <li>Checkout grapes <code>git clone https://github.com/l10178/grapes.git</code></li>
+                            <li>Run backend by the java main method <code>com.nxest.grapes.GrapesApp.main</code></li>
+                            <li>Run frontend by yarn
+                                <code>cd grape-skins &amp;&amp; yarn &amp;&amp; yarn start</code>
+                            </li>
+                            <li>Navigate to <a href="http://localhost:9000">http://localhost:9000</a> in your browser
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="col-lg-12">
+                        <p>
+                            <small>
+                                * Assuming you have already installed
+                                <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html"
+                                   target="_blank">Java</a>,
+                                <a href="https://git-scm.com/" target="_blank">Git</a>,
+                                <a href="https://nodejs.org/" target="_blank">Node.js</a>,and
+                                <a href="https://yarnpkg.com/en/docs/install" target="_blank">Yarn</a>.
+                            </small>
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-
         <!--technology stack-->
         <section id="technology-stack">
             <div class="container">
@@ -245,6 +265,10 @@
         }
         .card-jumbotron {
             padding: 1.5em 1.5em;
+        }
+        &.dark {
+            background-color: #09486b;
+            color: #FFF;
         }
     }
 
@@ -624,6 +648,10 @@
             }
 
         }
+    }
+
+    .text-body {
+        font-size: 1.2em;
     }
 
 </style>

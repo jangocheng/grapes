@@ -15,7 +15,7 @@ What I want do?
 * vue table
 * vue i18n
 * spring security
-
+* fontawesome5 && vue-fontawesome
 
 
 ## 0.0.2
@@ -39,4 +39,3 @@ What I want do?
 * em or px
 * use strict versions for third-party libraries
 * 全文搜索
-* fontawesome5 && vue-fontawesome
