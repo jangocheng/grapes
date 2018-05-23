@@ -433,6 +433,11 @@
 
 <style rel="stylesheet/scss" lang="scss" scoped>
 
+    $primary-color: #3E8ACC;
+    $color-clear-blue: #91d5fb;
+    $color-blue: #3E8ACC;
+    $dark-blue: #09486b;
+
     /* Card */
     .card {
         background-color: #FFF;
@@ -445,15 +450,7 @@
                 font-size: 1.2em;
                 padding: 1.2em 0 0.4em 0;
                 margin-bottom: 25px;
-                .description {
-                    padding-left: 0.4em;
-                    font-size: 0.8em;
-                    opacity: 0.8;
-                }
             }
-        }
-        .card-body.half-padding {
-            padding: 12.5px;
         }
         .card-header {
             .card-title {
@@ -464,11 +461,6 @@
                     font-size: 1.5em;
                     text-decoration: none;
                 }
-                .description {
-                }
-            }
-            .pull-right {
-                padding: 0.5em 1em;
             }
         }
         .card-header:after {
@@ -476,15 +468,7 @@
             display: block;
             clear: both;
         }
-        .card-profile-img {
-            img {
-                width: 100%;
-                height: auto;
-            }
-        }
-        .card-jumbotron {
-            padding: 1.5em 1.5em;
-        }
+
         &.dark {
             background-color: #09486b;
             color: #FFF;
@@ -534,10 +518,7 @@
         }
     }
 
-    $primary-color: #3E8ACC;
-    $color-clear-blue: #91d5fb;
-    $color-blue: #3E8ACC;
-    $dark-blue: #09486b;
+
     body {
         overflow-x: hidden;
     }
