@@ -8,7 +8,7 @@
                             <img class="img-responsive" src="../../assets/images/logo/logo.png" alt="">
                         </div>
                         <div class="intro-text">
-                            <span class="brand">Greetings, I like Grapes!</span>
+                            <span class="brand">Greetings, Grapes!</span>
                             <hr class="star-light">
                             <div class="row stats">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
