@@ -37,3 +37,4 @@ What I want do?
 * liquibase
 * form validation: java validation
 * em or px
+* use strict versions for third-party libraries
