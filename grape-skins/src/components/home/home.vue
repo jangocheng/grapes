@@ -167,20 +167,20 @@
                 <div class="row stack-container no-margin">
                     <ul class="text-center stacks">
                         <li class="clip img-circle">
-                            <img src="../../assets/images/third/html-5.svg" />
+                            <img src="../../assets/images/third/html-5.svg"/>
                             <span class="title_sub_tech">HTML5</span>
                         </li>
                         <li class="clip img-circle">
-                            <img src="../../assets/images/third/css-3.svg" />
+                            <img src="../../assets/images/third/css-3.svg"/>
                             <span class="title_sub_tech">CSS3</span>
                         </li>
                         <li class="clip img-circle">
-                            <img src="../../assets/images/third/bootstrap.svg" />
+                            <img src="../../assets/images/third/bootstrap.svg"/>
                             <span class="title_sub_tech">Bootstrap</span>
                         </li>
 
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/logo-vue.png" />
+                            <img src="../../assets/images/third/logo-vue.png"/>
                             <span class="title_sub_tech">Vue.js</span>
                         </li>
                         <li class="clip img-circle">
@@ -201,19 +201,19 @@
                         </li>
 
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/sass.svg" class="height" />
+                            <img src="../../assets/images/third/sass.svg" class="height"/>
                             <span class="title_sub_tech">Sass</span>
                         </li>
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/browsersync.svg" />
+                            <img src="../../assets/images/third/browsersync.svg"/>
                             <span class="title_sub_tech">Browsersync</span>
                         </li>
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/karma.svg" />
+                            <img src="../../assets/images/third/karma.svg"/>
                             <span class="title_sub_tech">Karma</span>
                         </li>
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/protarctor.png" />
+                            <img src="../../assets/images/third/protarctor.png"/>
                             <span class="title_sub_tech">Protractor</span>
                         </li>
 
@@ -231,7 +231,7 @@
                 <div class="row stack-container no-margin">
                     <ul class="text-center stacks">
                         <li class="clip img-circle">
-                            <img src="../../assets/images/third/spring-boot.png" />
+                            <img src="../../assets/images/third/spring-boot.png"/>
                             <span class="title_sub_tech">Spring Boot</span>
                         </li>
                         <li class="clip img-circle">
@@ -251,31 +251,31 @@
                             <span class="title_sub_tech">Gradle</span>
                         </li>
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/maven.png" class="invert-hover-white width" />
+                            <img src="../../assets/images/third/maven.png" class="invert-hover-white width"/>
                             <span class="title_sub_tech">Maven</span>
                         </li>
                         <li class="clip img-circle">
-                            <img src="../../assets/images/third/hibernate.svg" />
+                            <img src="../../assets/images/third/hibernate.svg"/>
                             <span class="title_sub_tech">Hibernate</span>
                         </li>
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/liquibase.gif" class="width" />
+                            <img src="../../assets/images/third/liquibase.gif" class="width"/>
                             <span class="title_sub_tech">Liquibase</span>
                         </li>
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/mysql.svg" />
+                            <img src="../../assets/images/third/mysql.svg"/>
                             <span class="title_sub_tech">MySQL</span>
                         </li>
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/mariadb.svg" />
+                            <img src="../../assets/images/third/mariadb.svg"/>
                             <span class="title_sub_tech">MariaDB</span>
                         </li>
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/postgresql.svg" class="height" />
+                            <img src="../../assets/images/third/postgresql.svg" class="height"/>
                             <span class="title_sub_tech">PostgreSQL</span>
                         </li>
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/oracle.svg" class="width" />
+                            <img src="../../assets/images/third/oracle.svg" class="width"/>
                             <span class="title_sub_tech">Oracle</span>
                         </li>
                         <li class="clip img-circle new">
@@ -283,15 +283,15 @@
                             <span class="title_sub_tech">MS SQL</span>
                         </li>
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/mongo.png" />
+                            <img src="../../assets/images/third/mongo.png"/>
                             <span class="title_sub_tech">MongoDB</span>
                         </li>
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third//cassandra.svg" class="invert-hover-white" />
+                            <img src="../../assets/images/third//cassandra.svg" class="invert-hover-white"/>
                             <span class="title_sub_tech">Cassandra</span>
                         </li>
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/ehcache.png" />
+                            <img src="../../assets/images/third/ehcache.png"/>
                             <span class="title_sub_tech">EhCache</span>
                         </li>
                         <li class="clip img-circle new">
@@ -299,7 +299,7 @@
                             <span class="title_sub_tech">Hazelcast</span>
                         </li>
                         <li class="clip img-circle new">
-                            <img src="../../assets/images/third/infinispan.png" />
+                            <img src="../../assets/images/third/infinispan.png"/>
                             <span class="title_sub_tech">Infinispan</span>
                         </li>
                         <li class="clip img-circle new">
