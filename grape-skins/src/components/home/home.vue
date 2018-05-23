@@ -204,7 +204,7 @@
             padding: 25px;
             .sub-title {
                 font-size: 1.2em;
-                padding: 1.2em 0em 0.4em 0em;
+                padding: 1.2em 0 0.4em 0;
                 margin-bottom: 25px;
                 .description {
                     padding-left: 0.4em;
