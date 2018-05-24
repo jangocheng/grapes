@@ -20,10 +20,10 @@
 * spring security
 * use strict versions for third-party libraries
 * how to test vue.js and Java
-* show github repositories
+* [markdown](https://cn.vuejs.org/v2/examples/index.html)
+* [show github repositories](https://cn.vuejs.org/v2/examples/commits.html)
 * admin menu
 * UI kits
-* show Java and JavaScript blog by markdown
 * github api
 * mock api
 * docker

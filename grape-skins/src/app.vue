@@ -11,6 +11,10 @@
                 </el-main>
                 <el-footer>
                     Copyright © <a href="http://nxest.com" target="_blank">nxest.com</a> 2018
+                    | Become a Sponsor, click
+                    <el-button type="text" @click="thanks">
+                        <fa-icon icon="coffee" size="lg"/>
+                    </el-button>
                 </el-footer>
             </el-container>
         </el-container>
@@ -23,6 +27,15 @@
     export default {
         name: 'app',
         components: {GrpHeader},
+        methods: {
+            thanks: function() {
+                this.$notify({
+                    title: 'Got it',
+                    message: 'Thank you very much.',
+                    type: 'success',
+                });
+            },
+        },
     };
 </script>
 
@@ -46,6 +59,7 @@
         background-color: $brand-black;
         //height: $app-header-height!important;
     }
+
     .el-footer {
         background-color: $brand-black;
         color: $brand-light;
