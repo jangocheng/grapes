@@ -1,26 +1,25 @@
-# TODO
-What I want do?
-做一个完整的前后端例子，包含基础功能，然后进行拆解、理解、消化吸收。
+# TODO && changelog
 
 ## 0.0.1
-* `webpack:`
+* webpack:
   + proxy: 9000 to 8080.
   + dev: auto build,auto refresh.
   + prod: build release files,hash and compress.
-* `build release war by maven`.
+* build release war by maven.
+* home page
+* import vue-fontawesome
+* import element-ui
+
+
+## 0.0.2
 * JWT and login
-* `home page`
 * http request by axios
 * vue route, vuex
 * vue table
 * vue i18n
 * spring security
-* fontawesome5 && vue-fontawesome
-
-
-## 0.0.2
+* use strict versions for third-party libraries
 * how to test vue.js and Java
-* element-ui
 * show github repositories
 * admin menu
 * UI kits
@@ -37,5 +36,4 @@ What I want do?
 * liquibase
 * form validation: java validation
 * em or px
-* use strict versions for third-party libraries
 * 全文搜索
