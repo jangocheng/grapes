@@ -551,16 +551,6 @@
             border-top: solid 5px;
             text-align: center;
         }
-        &.star-light:after,
-        &.star-primary:after {
-            content: "\f005";
-            display: inline-block;
-            position: relative;
-            top: -.8em;
-            padding: 0 .25em;
-            font-family: FontAwesome, serif;
-            font-size: 2em;
-        }
         &.star-light {
             border-color: #fff;
             &:after {
