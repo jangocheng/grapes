@@ -14,10 +14,14 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/vue-fontawesome": "^0.0.22",
     "axios": "^0.18.0",
     "bootstrap-vue": "^2.0.0-rc.9",
     "element-ui": "^2.3.2",
-    "font-awesome": "^4.7.0",
     "js-cookie": "^2.2.0",
     "typeface-pacifico": "^0.0.54",
     "vue": "^2.5.2",

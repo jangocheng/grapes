@@ -7,7 +7,13 @@ import VueAxios from 'vue-axios';
 import ElementUI from 'element-ui';
 import 'typeface-pacifico/index.css';
 import 'element-ui/lib/theme-chalk/index.css';
-import 'font-awesome/scss/font-awesome.scss';
+// import 'font-awesome/scss/font-awesome.scss';
+import fontawesome from '@fortawesome/fontawesome';
+import solid from '@fortawesome/fontawesome-free-solid';
+import regular from '@fortawesome/fontawesome-free-regular';
+import brands from '@fortawesome/fontawesome-free-brands';
+import FontAwesomeIcon from '@fortawesome/vue-fontawesome';
+
 import BootstrapVue from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
@@ -19,6 +25,9 @@ import '@/assets/styles/index.scss';
 Vue.use(VueLodash, {name: 'lodash'});
 Vue.use(ElementUI);
 Vue.use(BootstrapVue);
+
+fontawesome.library.add(solid, regular, brands);
+Vue.component('fa-icon', FontAwesomeIcon);
 
 let sessionStorage = {
     namespace: 'grapes_',

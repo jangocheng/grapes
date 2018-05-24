@@ -14,7 +14,7 @@
 
                     <b-nav-item-dropdown right>
                         <template slot="button-content">
-                            <i class="fa fa-github fa-2x"></i>
+                            <fa-icon :icon="['fab','github']" size="2x"/>
                         </template>
                         <b-dropdown-item href="https://github.com/l10178/grapes" target="_blank">grapes
                         </b-dropdown-item>
@@ -27,7 +27,7 @@
 
                     <b-nav-item-dropdown right>
                         <template slot="button-content">
-                            <i class="fa fa-user-o fa-2x"></i>
+                            <fa-icon icon="user" size="2x"/>
                         </template>
                         <b-dropdown-item href="#">Profile</b-dropdown-item>
                         <b-dropdown-item href="#">Register</b-dropdown-item>

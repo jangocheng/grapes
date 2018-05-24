@@ -9,7 +9,7 @@ What I want do?
   + prod: build release files,hash and compress.
 * `build release war by maven`.
 * JWT and login
-* home page
+* `home page`
 * http request by axios
 * vue route, vuex
 * vue table
