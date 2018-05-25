@@ -4,14 +4,19 @@
 
             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-            <b-navbar-brand href="#">
-                <img src="../../../assets/images/logo/logo.png" class="img-brand"/>Grapes
+            <b-navbar-brand href="/">
+                <img src="../../../assets/images/logo/logo.png" class="img-brand"/>
+                Grapes
             </b-navbar-brand>
 
             <b-collapse is-nav id="nav_collapse">
                 <!-- Right aligned nav items -->
                 <b-navbar-nav class="ml-auto">
-
+                    <b-nav-item href="#" right>
+                        <router-link to="/blog">
+                            <fa-icon :icon="['fab','pied-piper-alt']" size="2x"/>
+                        </router-link>
+                    </b-nav-item>
                     <b-nav-item-dropdown right>
                         <template slot="button-content">
                             <fa-icon :icon="['fab','github']" size="2x"/>
@@ -92,6 +97,10 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
+    .navbar {
+        padding: 1px 16px;
+    }
+
     .navbar-brand {
         font-size: 1.6em;
         font-family: 'Pacifico', cursive;
