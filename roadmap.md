@@ -20,8 +20,8 @@
 * spring security
 * use strict versions for third-party libraries
 * how to test vue.js and Java
-* [markdown](https://cn.vuejs.org/v2/examples/index.html)
-* [show github repositories](https://cn.vuejs.org/v2/examples/commits.html)
+* vue-markdown
+* [github-api](http://github-tools.github.io/github/)
 * admin menu
 * UI kits
 * github api
@@ -37,4 +37,3 @@
 * form validation: java validation
 * em or px
 * 全文搜索
-* github tooooo '2102e007c582cb4d62568lqs12015468b646745c32d'

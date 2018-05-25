@@ -10,7 +10,7 @@
             
               mounted() {
                         let gh = new GitHub({
-                            token: '2102e007c582cb4d6256812015468b646745c32d',
+                            token: 'tttt',
                         });
                         let repo = gh.getRepo('l10178', 'bits-pieces');
                         repo.getContents('master', 'README.md', true).then((response) => {
