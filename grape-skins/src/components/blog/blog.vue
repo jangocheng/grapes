@@ -1,7 +1,27 @@
 <template>
-    <div class="container">
-        show blog here.
-        <vue-markdown :source="source"></vue-markdown>
+    <div class="container blog">
+        <h1>
+            <fa-icon icon="list-ul"></fa-icon>
+            Bits And Pieces
+        </h1>
+        <p>
+            I always have a lot of bits and pieces in my coat pocket.
+        </p>
+        <ul>
+            <li v-for="content in contents">
+                <p>
+                    <router-link to="/blog">
+                        {{ content.name }}
+                    </router-link>
+                    <!--<a :href="content.download_url" target="_blank">-->
+                    <!--<fa-icon icon="arrow-alt-circle-down" size="sm"/>-->
+                    <!--</a>-->
+                    <!--show detail here-->
+                    <!--<vue-markdown :source="source"></vue-markdown>-->
+                </p>
+
+            </li>
+        </ul>
     </div>
 </template>
 
@@ -16,6 +36,7 @@
             return {
                 stars: 987,
                 source: '',
+                contents: [],
             };
         },
         components: {
@@ -27,8 +48,8 @@
                 username: GITHUB_API_TOKEN,
             });
             let repo = gh.getRepo(GITHUB_USER, 'bits-pieces');
-            repo.getContents('master', 'README.md', true).then((response) => {
-                this.source = response.data;
+            repo.getContents('master', '', true).then((response) => {
+                this.contents = response.data;
             });
             let me = gh.getUser(GITHUB_USER);
 
@@ -40,5 +61,12 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
+    .blog {
+        ul {
+            font-size: 16px;
+            li {
+            }
+        }
 
+    }
 </style>
