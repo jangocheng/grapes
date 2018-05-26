@@ -444,82 +444,33 @@
         border-radius: 1px;
         overflow: hidden;
         position: relative;
-        .card-body {
-            padding: 25px;
-            .sub-title {
-                font-size: 1.2em;
-                padding: 1.2em 0 0.4em 0;
-                margin-bottom: 25px;
-            }
-        }
-        .card-header {
-            .card-title {
-                padding: 1.2em 25px;
-                float: left;
-                .title {
-                    font-family: 'Roboto Condensed', sans-serif;
-                    font-size: 1.5em;
-                    text-decoration: none;
-                }
-            }
-        }
-        .card-header:after {
-            content: '';
-            display: block;
-            clear: both;
-        }
-
         &.dark {
             background-color: #09486b;
             color: #FFF;
         }
-    }
-
-    .card:hover {
-        .card-header {
-            .title {
-                text-decoration: none !important;
-            }
-        }
-    }
-
-    .card.summary-inline {
-        .card-body {
-            padding: 20px;
-            .icon {
-            }
-            .content {
-                float: right;
-                .title {
-                    font-family: 'Lato', sans-serif;
-                    margin-top: -0.3em;
-                    font-size: 3.5em;
-                    text-align: right;
-                }
-                .sub-title {
-                    font-family: 'Lato', sans-serif;
-                    font-size: 0.9em;
-                    text-align: right;
-                    margin-top: -10px;
-                    margin-bottom: 0;
-                    padding: 0;
-                    border-bottom: 0;
+        &.summary-inline {
+            .card-body {
+                padding: 20px;
+                .content {
+                    float: right;
+                    .title {
+                        font-family: 'Lato', sans-serif;
+                        margin-top: -0.3em;
+                        font-size: 3.5em;
+                        text-align: right;
+                    }
+                    .sub-title {
+                        font-family: 'Lato', sans-serif;
+                        font-size: 0.9em;
+                        text-align: right;
+                        margin-top: -10px;
+                        margin-bottom: 0;
+                        padding: 0;
+                        border-bottom: 0;
+                    }
                 }
             }
         }
-    }
-
-    .card.profile {
-        .card-body {
-            padding: 0.5em 0.8em;
-        }
-        .card-footer {
-            padding: 0.5em 0.8em;
-        }
-    }
-
-    body {
-        overflow-x: hidden;
     }
 
     p {
@@ -664,26 +615,6 @@
         }
         ul {
             font-size: 1.2em;
-        }
-        .card {
-            margin-bottom: 5px;
-            .card-body {
-                text-align: left;
-            }
-            &.module.summary-inline {
-                .card-body {
-                    padding: 10px;
-                    .content {
-                        width: 75%;
-                        .title {
-                            font-size: 1.5em;
-                        }
-                        .sub-title {
-                            margin: 10px 0;
-                        }
-                    }
-                }
-            }
         }
     }
 
