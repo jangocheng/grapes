@@ -454,19 +454,13 @@
                 .content {
                     float: right;
                     .title {
-                        font-family: 'Lato', sans-serif;
-                        margin-top: -0.3em;
+                        padding: 5px 15px;
                         font-size: 3.5em;
                         text-align: right;
                     }
                     .sub-title {
-                        font-family: 'Lato', sans-serif;
                         font-size: 0.9em;
                         text-align: right;
-                        margin-top: -10px;
-                        margin-bottom: 0;
-                        padding: 0;
-                        border-bottom: 0;
                     }
                 }
             }
