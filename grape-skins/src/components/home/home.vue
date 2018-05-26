@@ -15,7 +15,7 @@
                                     <a href="https://github.com/l10178/grapes" target="_blank">
                                         <div class="card dark summary-inline">
                                             <div class="card-body">
-                                                <i class="icon fa fa-download fa-3x"></i>
+                                                <fa-icon icon="download" size="3x"></fa-icon>
                                                 <div class="content">
                                                     <div class="title">{{npmDownloads}}</div>
                                                     <div class="sub-title">Downloads in last 30 days</div>
@@ -29,7 +29,7 @@
                                     <a href="https://github.com/l10178/grapes" target="_blank">
                                         <div class="card dark summary-inline">
                                             <div class="card-body">
-                                                <i class="icon fa fa-github fa-3x"></i>
+                                                <fa-icon icon="star" size="3x"></fa-icon>
                                                 <div class="content">
                                                     <div class="title">{{stars}}</div>
                                                     <div class="sub-title">Stars</div>
@@ -43,7 +43,7 @@
                                     <a href="https://github.com/l10178/grapes/contributors" target="_blank">
                                         <div class="card dark summary-inline">
                                             <div class="card-body">
-                                                <i class="icon fa fa-users fa-3x"></i>
+                                                <fa-icon icon="user" size="3x"></fa-icon>
                                                 <div class="content">
                                                     <div class="title">{{contributors}}</div>
                                                     <div class="sub-title">Contributors</div>
@@ -423,8 +423,8 @@
         name: 'GrpHome',
         data() {
             return {
-                npmDownloads: 10178,
-                stars: 987,
+                npmDownloads: 10178 * 12,
+                stars: 987 * 16,
                 contributors: 3,
             };
         },
