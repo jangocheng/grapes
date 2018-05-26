@@ -12,7 +12,7 @@
         <el-collapse accordion @change="showDetail">
             <el-collapse-item v-for="content in contents" :key="content.path" :name="content.path">
                 <template slot="title">
-                    {{ content.name }}
+                    <h5>{{ content.name }}</h5>
                 </template>
                 <vue-markdown :source="markdownSource"></vue-markdown>
             </el-collapse-item>
