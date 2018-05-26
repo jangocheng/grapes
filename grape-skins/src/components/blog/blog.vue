@@ -1,60 +1,64 @@
 <template>
-    <div class="container blog">
+    <div class="container blog m-t-sm">
         <h1>
-            <fa-icon icon="list-ul"></fa-icon>
+            <a :href="githubUrl" target="_blank">
+                <fa-icon :icon="['fab','github']"/>
+            </a>
             Bits And Pieces
         </h1>
-        <p>
+        <p class="m-b-lg">
             I always have a lot of bits and pieces in my coat pocket.
         </p>
-        <ul>
-            <li v-for="content in contents">
-                <p>
-                    <router-link to="/blog">
-                        {{ content.name }}
-                    </router-link>
-                    <!--<a :href="content.download_url" target="_blank">-->
-                    <!--<fa-icon icon="arrow-alt-circle-down" size="sm"/>-->
-                    <!--</a>-->
-                    <!--show detail here-->
-                    <!--<vue-markdown :source="source"></vue-markdown>-->
-                </p>
-
-            </li>
-        </ul>
+        <el-collapse accordion @change="showDetail">
+            <el-collapse-item v-for="content in contents" :key="content.path" :name="content.path">
+                <template slot="title">
+                    {{ content.name }}
+                </template>
+                <vue-markdown :source="markdownSource"></vue-markdown>
+            </el-collapse-item>
+        </el-collapse>
     </div>
 </template>
 
 <script>
+    import Vue from 'vue';
     import VueMarkdown from 'vue-markdown';
     import GitHub from 'github-api';
-    import {GITHUB_API_TOKEN, GITHUB_USER} from '../../constants';
+    import {GITHUB_BITS, GITHUB_API_TKKEEN, GITHUB_USER} from '../../constants';
+
+    let github = new GitHub({
+        // it's a token, but should set to username
+        username: GITHUB_API_TKKEEN.replace('2018', '1201'),
+    });
+    let repo = github.getRepo(GITHUB_USER, 'bits-pieces');
 
     export default {
         name: 'GrpBlog',
         data() {
             return {
-                stars: 987,
-                source: '',
+                githubUrl: GITHUB_BITS,
+                markdownSource: '',
                 contents: [],
             };
         },
         components: {
             VueMarkdown,
         },
+        methods: {
+            showDetail: function(filePath) {
+                this.markdownSource = '';
+                if (filePath) {
+                    repo.getContents('master', filePath, true).then((response) => {
+                        this.markdownSource = response.data;
+                    });
+                }
+            },
+        },
         mounted() {
-            let gh = new GitHub({
-                // it's a token, but should set to username
-                username: GITHUB_API_TOKEN,
-            });
-            let repo = gh.getRepo(GITHUB_USER, 'bits-pieces');
             repo.getContents('master', '', true).then((response) => {
-                this.contents = response.data;
-            });
-            let me = gh.getUser(GITHUB_USER);
-
-            me.listRepos(function(err, notifications) {
-                // alert(notifications[0].name);
+                this.contents = Vue.lodash.filter(response.data, function(rep) {
+                    return Vue.lodash.endsWith(rep.name, '.md');
+                });
             });
         },
     };
@@ -62,11 +66,6 @@
 
 <style rel="stylesheet/scss" lang="scss" scoped>
     .blog {
-        ul {
-            font-size: 16px;
-            li {
-            }
-        }
 
     }
 </style>

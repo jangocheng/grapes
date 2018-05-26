@@ -7,7 +7,6 @@ import VueAxios from 'vue-axios';
 import ElementUI from 'element-ui';
 import 'typeface-pacifico/index.css';
 import 'element-ui/lib/theme-chalk/index.css';
-// import 'font-awesome/scss/font-awesome.scss';
 import fontawesome from '@fortawesome/fontawesome';
 import solid from '@fortawesome/fontawesome-free-solid';
 import regular from '@fortawesome/fontawesome-free-regular';

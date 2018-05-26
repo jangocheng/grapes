@@ -17,7 +17,14 @@
     }
   } 
  
-    
+
+
+
+// let me = github.getUser(GITHUB_USER);
+            //
+            // me.listRepos(function(err, notifications) {
+            //     // alert(notifications[0].name);
+            // });  
     
   
             
