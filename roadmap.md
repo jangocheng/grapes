@@ -37,3 +37,5 @@
 * form validation: java validation
 * em or px
 * 全文搜索
+* Screenshots
+* monitoring screen
