@@ -14,8 +14,8 @@
 ## 0.0.2
 * [github-api](http://github-tools.github.io/github/)
 * vue-markdown
+* copy and release grape-skins to l10178.github.io
 * docker
-* copy grape-skins to l10178.github.io
 * JWT and login
 * http request by axios
 * vue route, vuex
@@ -38,3 +38,4 @@
 * 全文搜索
 * Screenshots
 * monitoring screen
+* images minify
