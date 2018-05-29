@@ -12,21 +12,20 @@
 
 
 ## 0.0.2
+* [github-api](http://github-tools.github.io/github/)
+* vue-markdown
+* docker
+* copy grape-skins to l10178.github.io
 * JWT and login
 * http request by axios
 * vue route, vuex
-* vue table
 * vue i18n
 * spring security
 * use strict versions for third-party libraries
-* how to test vue.js and Java
-* vue-markdown
-* [github-api](http://github-tools.github.io/github/)
+* test vue.js and Java
 * admin menu
 * UI kits
-* github api
 * mock api
-* docker
 * swagger ui api doc
 
 
