@@ -810,7 +810,7 @@
                     </plugin>
                 </plugins>
                 <!--build the war(jar) file without version, use parent name -->
-                <finalName>${parent.artifactId}</finalName>
+                <finalName>${project.parent.artifactId}</finalName>
             </build>
             <properties>
                 <!-- default Spring profiles -->
