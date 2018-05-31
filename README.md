@@ -32,6 +32,28 @@ Add the `help` flag on any command to see how you can use it. For example, `yarn
 
 The `yarn run` command will list all of the scripts available to run for this project.
 
+## Setting up your environment
+
+### Configuring Node and Yarn
+ * In China, set yarn registry to https://registry.npm.taobao.org
+ 
+   > yarn config get registry
+   > yarn config set registry https://registry.npm.taobao.org
+   
+ * download node-sass from taobao mirrors
+   
+   > yarn config set sass_binary_site https://npm.taobao.org/mirrors/node-sass/
+    
+ * install phantomjs on ubuntu
+ 
+   > sudo apt-get install phantomjs
+   
+
+### Configuring Intellij IDEA
+* Intellij IDEA 配置ESlint风格和项目一致，现在使用的是google标准，具体以代码为准，代码不骗人。
+* 配置代码换行都使用LF。
+* 配置项目编码使用UTF-8。
+ 
 
 ## Building for production
 
