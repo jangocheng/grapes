@@ -39,20 +39,19 @@ The `yarn run` command will list all of the scripts available to run for this pr
  
    > yarn config set registry https://registry.npm.taobao.org
    
- * download node-sass from taobao mirrors
+ * Download node-sass from taobao mirrors
    
    > yarn config set sass_binary_site https://npm.taobao.org/mirrors/node-sass/
     
- * install phantomjs on ubuntu
+ * Install phantomjs on ubuntu
  
    > sudo apt-get install phantomjs
    
 
 ### Configuring Intellij IDEA
-* Intellij IDEA 配置ESlint风格和项目一致，现在使用的是google标准，具体以代码为准，代码不骗人。
-* 配置代码换行都使用LF。
-* 配置项目编码使用UTF-8。
- 
+* Set JavaScript language version to ECMAScript 6( settings>Lauguages & Frameworks>JavaScript ).
+* Use google JavaScript code style.  See `.eslintrc.js`.
+
 
 ## Building for production
 
