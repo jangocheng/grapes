@@ -37,7 +37,6 @@ The `yarn run` command will list all of the scripts available to run for this pr
 ### Configuring Node and Yarn
  * In China, set yarn registry to https://registry.npm.taobao.org
  
-   > yarn config get registry
    > yarn config set registry https://registry.npm.taobao.org
    
  * download node-sass from taobao mirrors
