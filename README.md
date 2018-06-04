@@ -42,10 +42,15 @@ The `yarn run` command will list all of the scripts available to run for this pr
  * Download node-sass from taobao mirrors
    
    > yarn config set sass_binary_site https://npm.taobao.org/mirrors/node-sass/
+   
+ * Download chromedriver from taobao mirrors
     
- * Install phantomjs on ubuntu
+   >  yarn config set chromedriver_cdnurl https://npm.taobao.org/mirrors/chromedriver
+    
+ * Install phantomjs
  
-   > sudo apt-get install phantomjs
+   > yarn config set phantomjs_cdnurl http://npm.taobao.org/mirrors/phantomjs
+   
    
 
 ### Configuring Intellij IDEA
