@@ -14,8 +14,8 @@
 ## 0.0.2
 * [github-api](http://github-tools.github.io/github/)
 * vue-markdown
+* formmat markdown blog
 * copy and release grape-skins to l10178.github.io
-* docker
 * JWT and login
 * http request by axios
 * vue route, vuex
@@ -27,6 +27,7 @@
 * UI kits
 * mock api
 * swagger ui api doc
+* docker
 
 
 ## 0.0.3
