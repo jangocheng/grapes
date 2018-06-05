@@ -9,10 +9,21 @@
             </div>
 
             <el-menu
+                default-active="-100"
                 mode="horizontal"
                 background-color="#1c2b36"
                 text-color="#ffffff"
                 active-text-color="#337ab7">
+                <el-submenu index="">
+                    <template slot="title">
+                        <fa-icon icon="user-plus" size="lg"/>
+                        Administration
+                    </template>
+                    <el-menu-item index="">
+                        Health
+                    </el-menu-item>
+                </el-submenu>
+
                 <el-menu-item index="1">
                     <router-link to="/blog">
                         <fa-icon :icon="['fab','pied-piper-alt']" size="2x"/>
@@ -49,6 +60,7 @@
                         <el-button type="text">Register</el-button>
                     </el-menu-item>
                 </el-submenu>
+
             </el-menu>
         </div>
 
