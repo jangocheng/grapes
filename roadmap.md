@@ -17,7 +17,7 @@
 * formmat markdown blog
 * copy and release grape-skins to l10178.github.io
 * JWT and login
-* admin tools(Jhipster Angular: User Manager, health and so on)
+* admin tools(Jhipster Angular: User Manager, health ,swagger and so on)
 * change navbar to element-ui
 * http request by axios
 * vue route, vuex
