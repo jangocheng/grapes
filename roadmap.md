@@ -17,13 +17,14 @@
 * formmat markdown blog
 * copy and release grape-skins to l10178.github.io
 * JWT and login
+* admin tools(Jhipster Angular: User Manager, health and so on)
+* change navbar to element-ui
 * http request by axios
 * vue route, vuex
 * vue i18n
 * spring security
 * use strict versions for third-party libraries
 * test vue.js and Java
-* admin menu
 * UI kits
 * mock api
 * swagger ui api doc
