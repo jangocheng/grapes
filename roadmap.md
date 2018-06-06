@@ -41,3 +41,4 @@
 * Screenshots
 * monitoring screen
 * images minify
+* release jar to maven (grapes-lang.jar:com.nxest.grapes.util)
