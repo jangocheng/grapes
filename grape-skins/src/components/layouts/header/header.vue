@@ -11,12 +11,19 @@
                 default-active="-100"
                 mode="horizontal"
                 background-color="#1c2b36"
-                text-color="#ffffff"
-                active-text-color="#337ab7">
+                text-color="#c6cfd6"
+                active-text-color="#fff">
+
                 <el-menu-item index="-1">
                     <router-link to="/home">
                         <fa-icon :icon="['fas','home']" size="lg"/>
                         Home
+                    </router-link>
+                </el-menu-item>
+                <el-menu-item index="1">
+                    <router-link to="/blog">
+                        <fa-icon :icon="['fas','rss']" size="lg"/>
+                        Blog
                     </router-link>
                 </el-menu-item>
                 <el-submenu index="0">
@@ -29,28 +36,10 @@
                     </el-menu-item>
                 </el-submenu>
 
-                <el-menu-item index="1">
-                    <router-link to="/blog">
-                        <fa-icon :icon="['fab','pied-piper-alt']" size="2x"/>
-                    </router-link>
-                </el-menu-item>
-                <el-submenu index="2">
-                    <template slot="title">
-                        <fa-icon :icon="['fab','github']" size="2x"/>
-                    </template>
-                    <el-menu-item index="2-1">
-                        <a href="https://github.com/l10178/grapes" target="_blank">grapes</a>
-                    </el-menu-item>
-                    <el-menu-item index="2-2">
-                        <a href="https://github.com/l10178/bits-pieces" target="_blank">bits-pieces</a>
-                    </el-menu-item>
-                    <el-menu-item index="2-3">
-                        <a href="https://github.com/l10178/angular-pretty-size" target="_blank">angular-pretty-size</a>
-                    </el-menu-item>
-                </el-submenu>
                 <el-submenu index="3">
                     <template slot="title">
-                        <fa-icon icon="user" size="2x"/>
+                        <fa-icon icon="user-circle" size="lg"/>
+                        Account
                     </template>
                     <el-menu-item index="3-1">
                         <el-button type="text" @click="loginFormVisible = true">Sign In</el-button>
@@ -65,6 +54,21 @@
                         <el-button type="text">Register</el-button>
                     </el-menu-item>
                 </el-submenu>
+                <el-submenu index="2">
+                    <template slot="title">
+                        <fa-icon :icon="['fab','github']" size="2x"/>
+                    </template>
+                    <el-menu-item index="2-1">
+                        <a href="https://github.com/l10178/grapes" target="_blank">grapes</a>
+                    </el-menu-item>
+                    <el-menu-item index="2-2">
+                        <a href="https://github.com/l10178/bits-pieces" target="_blank">bits-pieces</a>
+                    </el-menu-item>
+                    <el-menu-item index="2-3">
+                        <a href="https://github.com/l10178/angular-pretty-size" target="_blank">angular-pretty-size</a>
+                    </el-menu-item>
+                </el-submenu>
+
 
             </el-menu>
         </div>
