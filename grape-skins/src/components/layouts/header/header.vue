@@ -54,18 +54,16 @@
                         <el-button type="text">Register</el-button>
                     </el-menu-item>
                 </el-submenu>
-                <el-submenu index="2">
+                <el-submenu index="i-github">
                     <template slot="title">
                         <fa-icon :icon="['fab','github']" size="2x"/>
                     </template>
-                    <el-menu-item index="2-1">
-                        <a href="https://github.com/l10178/grapes" target="_blank">grapes</a>
-                    </el-menu-item>
-                    <el-menu-item index="2-2">
-                        <a href="https://github.com/l10178/bits-pieces" target="_blank">bits-pieces</a>
-                    </el-menu-item>
-                    <el-menu-item index="2-3">
-                        <a href="https://github.com/l10178/angular-pretty-size" target="_blank">angular-pretty-size</a>
+                    <el-menu-item v-for="repository in repositories" :key="repository.id" :index="repository.name">
+                        <!--suppress JSUnresolvedVariable -->
+                        <a :href="repository.html_url" target="_blank"
+                           :title="repository.description">
+                            {{repository.name}}
+                        </a>
                     </el-menu-item>
                 </el-submenu>
 
@@ -93,13 +91,19 @@
 
 <script>
     import Vue from 'vue';
+    import GitHub from 'github-api';
+    import {GITHUB_API_TKKEEN, GITHUB_USER} from '../../../constants';
 
+    let github = new GitHub({
+        username: GITHUB_API_TKKEEN.replace('2018', '1201'),
+    });
     const loginUrl = '/api/authenticate';
     export default {
         name: 'GrpHeader',
         data() {
             return {
                 loginFormVisible: false,
+                repositories: [],
                 user: {
                     username: '',
                     password: '',
@@ -118,6 +122,12 @@
                     }
                 });
             },
+        },
+        mounted() {
+            let user = github.getUser(GITHUB_USER);
+            user.listRepos({}).then((response) => {
+                this.repositories = response.data;
+            });
         },
     };
 </script>
