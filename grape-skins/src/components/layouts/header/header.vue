@@ -60,7 +60,8 @@
                     </template>
                     <el-menu-item v-for="repository in repositories" :key="repository.id" :index="repository.name">
                         <!--suppress JSUnresolvedVariable -->
-                        <a :href="repository.html_url" target="_blank"
+                        <a class="text-light"
+                           :href="repository.html_url" target="_blank"
                            :title="repository.description">
                             {{repository.name}}
                         </a>
