@@ -48,8 +48,14 @@
                         </el-button>
                     </template>
                 </el-table-column>
-
             </el-table>
+            <div class="m-t-sm text-center">
+                <el-pagination
+                    background
+                    layout="prev, pager, next"
+                    :total="1">
+                </el-pagination>
+            </div>
         </div>
 
     </div>
