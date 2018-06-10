@@ -4,8 +4,8 @@
             <div class="navbar-header nav-title ">
                 <a class="navbar-brand" href="/">
                     <img src="../../../assets/images/logo/logo.png" class="img-brand"/>
+                    Grapes
                 </a>
-                Grapes
                 <button class="navbar-toggler" type="button"
                         data-toggle="collapse"
                         data-target="#collapseBar"
@@ -149,6 +149,7 @@
     }
 
     .navbar-brand {
+        color: #fff;
         font-size: 1.6em;
         font-family: 'Pacifico', cursive;
         img {
