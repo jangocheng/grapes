@@ -29,10 +29,13 @@
 * mock api
 * swagger ui api doc
 * docker
+* images minify
 
 
 ## 0.0.3
 * upgrade spring boot to 2.0
+* do not import jquery
+* vue route lazy load, file is too large
 * Spring Cloud
 * liquibase
 * form validation: java validation
