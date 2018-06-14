@@ -20,8 +20,8 @@
 
 
 ## 0.0.3
+* vue route lazy load
 * upgrade spring boot to 2.0
-* vue route lazy load, file is too large
 * Spring Cloud
 * liquibase
 * form validation: java validation
