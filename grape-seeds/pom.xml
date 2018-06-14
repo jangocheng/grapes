@@ -52,7 +52,7 @@
         <liquibase-hibernate5.version>3.6</liquibase-hibernate5.version>
         <validation-api.version>1.1.0.Final</validation-api.version>
         <mapstruct.version>1.2.0.Final</mapstruct.version>
-        <grapes-lang.version>0.0.1</grapes-lang.version>
+        <grapes-lang.version>0.0.2</grapes-lang.version>
 
         <!-- Plugin versions -->
         <maven-clean-plugin.version>2.6.1</maven-clean-plugin.version>
