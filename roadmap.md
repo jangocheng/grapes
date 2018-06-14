@@ -21,6 +21,7 @@
 
 ## 0.0.3
 * vue route lazy load
+* lodash and jQuery is too large
 * upgrade spring boot to 2.0
 * Spring Cloud
 * liquibase
