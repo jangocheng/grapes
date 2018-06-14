@@ -66,6 +66,15 @@ Unit tests can be run with:
     yarn test
 
 
+## Webpack Bundle Analyzer
+
+Just run:
+
+    yarn analyz
+  
+Webpack Bundle Analyzer will start at http://127.0.0.1:8888
+
+
 ## Style Guide
 
 * Please read the [vue.js official style guide][] for Vue-specific code.
