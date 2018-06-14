@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>grape-seeds</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>war</packaging>
     <name>grape-seeds</name>
 
     <parent>
         <groupId>com.nxest.grapes</groupId>
         <artifactId>grapes</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
         <relativePath>../</relativePath>
     </parent>
 

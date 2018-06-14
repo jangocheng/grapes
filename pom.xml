@@ -4,10 +4,10 @@
 
     <groupId>com.nxest.grapes</groupId>
     <artifactId>grapes</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>pom</packaging>
     <name>grapes</name>
-    <description>Grapes vue.js branch. Spring Boot + Vue.js.</description>
+    <description>This is a Spring Boot + Vue.js Web application.</description>
 
     <modules>
         <!--注意，frontend项目要放在backend项目的后面，编译是按顺序编译的-->
