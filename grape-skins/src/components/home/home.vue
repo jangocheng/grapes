@@ -167,11 +167,11 @@
                 <div class="row stack-container">
                     <ul class="text-center stacks">
                         <li class="clip img-circle">
-                            <img src="../../assets/images/third/html-5.svg"/>
+                            <fa-icon :icon="['fab','html5']" class="ico-circle text-danger"/>
                             <span class="title-sub-tech">HTML5</span>
                         </li>
                         <li class="clip img-circle">
-                            <img src="../../assets/images/third/css-3.svg"/>
+                            <fa-icon :icon="['fab','css3-alt']" class="ico-circle text-info"/>
                             <span class="title-sub-tech">CSS3</span>
                         </li>
                         <li class="clip img-circle">
@@ -639,6 +639,10 @@
                 -webkit-border-radius: 500px;
                 -moz-border-radius: 500px;
                 border-radius: 500px;
+                .ico-circle {
+                    margin-top: 24px;
+                    font-size: 4em;
+                }
             }
             i {
                 display: block;
