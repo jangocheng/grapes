@@ -167,7 +167,7 @@
                 <div class="row stack-container">
                     <ul class="text-center stacks">
                         <li class="clip img-circle">
-                            <fa-icon :icon="['fab','html5']" class="ico-circle text-danger"/>
+                            <fa-icon :icon="['fab','html5']" class="ico-circle" style="color: #e44d26"/>
                             <span class="title-sub-tech">HTML5</span>
                         </li>
                         <li class="clip img-circle">
@@ -201,7 +201,7 @@
                         </li>
 
                         <li class="clip img-circle">
-                            <img src="../../assets/images/third/sass.svg" class="height"/>
+                            <fa-icon :icon="['fab','sass']" class="ico-circle" style="color: #cd6799"/>
                             <span class="title-sub-tech">Sass</span>
                         </li>
                         <li class="clip img-circle">
@@ -394,7 +394,7 @@
                 <div class="row stack-container">
                     <ul class="text-center stacks">
                         <li class="clip img-circle">
-                            <fa-icon :icon="['fab','jenkins']" class="ico-circle text-dark"/>
+                            <fa-icon :icon="['fab','jenkins']" class="ico-circle" style="color: #335061"/>
                             <span class="title-sub-tech">Jenkins</span>
                         </li>
                         <li class="clip img-circle">
@@ -402,7 +402,8 @@
                             <span class="title-sub-tech">Travis CI</span>
                         </li>
                         <li class="clip img-circle">
-                            <img src="../../assets/images/third/gitlab.svg"/>
+                            <!--<img src="../../assets/images/third/gitlab.svg"/>-->
+                            <fa-icon :icon="['fab','gitlab']" class="ico-circle" style="color: #e24329"/>
                             <span class="title-sub-tech">Gitlab CI</span>
                         </li>
                         <li class="clip img-circle">
