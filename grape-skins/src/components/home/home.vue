@@ -349,7 +349,7 @@
                 <div class="row stack-container">
                     <ul class="text-center stacks">
                         <li class="clip img-circle">
-                            <img src="../../assets/images/third/docker.svg"/>
+                            <fa-icon :icon="['fab','docker']" class="ico-circle text-info"/>
                             <span class="title-sub-tech">Docker</span>
                         </li>
                         <li class="clip img-circle">
@@ -394,7 +394,7 @@
                 <div class="row stack-container">
                     <ul class="text-center stacks">
                         <li class="clip img-circle">
-                            <img src="../../assets/images/third/jenkins.svg"/>
+                            <fa-icon :icon="['fab','jenkins']" class="ico-circle text-dark"/>
                             <span class="title-sub-tech">Jenkins</span>
                         </li>
                         <li class="clip img-circle">
