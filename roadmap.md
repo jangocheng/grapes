@@ -42,3 +42,4 @@
 * mock api
 * swagger ui api doc
 * docker
+* java 9 & 10
