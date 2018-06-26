@@ -24,6 +24,7 @@
 
 ## 0.0.4
 * lodash and jQuery is too large
+* add prettier plugin
 * upgrade spring boot to 2.0
 * Spring Cloud
 * liquibase
