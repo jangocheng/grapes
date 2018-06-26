@@ -20,7 +20,9 @@
 
 
 ## 0.0.3
-* vue route lazy load
+* vue route lazy load.
+
+## 0.0.4
 * lodash and jQuery is too large
 * upgrade spring boot to 2.0
 * Spring Cloud
@@ -33,7 +35,7 @@
 * JWT and login
 * admin tools(Jhipster Angular: User Manager, health ,swagger and so on)
 * http request by axios
-* vue route, vuex
+* vuex
 * vue i18n
 * spring security
 * use strict versions for third-party libraries
