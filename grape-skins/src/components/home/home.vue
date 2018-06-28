@@ -365,7 +365,7 @@
                             <span class="title-sub-tech">CloudFoundry</span>
                         </li>
                         <li class="clip img-circle">
-                            <img src="../../assets/images/third/aws.svg" class="width"/>
+                            <fa-icon :icon="['fab','aws']" class="ico-circle" style="color: #335061"/>
                             <span class="title-sub-tech">AWS</span>
                         </li>
                         <li class="clip img-circle">
