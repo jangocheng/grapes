@@ -21,11 +21,11 @@
 
 ## 0.0.3
 * vue route lazy load.
+* upgrade Jhipster to v5.0, spring boot to v2.0
 
 ## 0.0.4
 * lodash and jQuery is too large
 * add prettier plugin
-* upgrade spring boot to 2.0
 * Spring Cloud
 * liquibase
 * form validation: java validation
