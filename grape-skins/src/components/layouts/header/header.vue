@@ -4,7 +4,7 @@
             <div class="navbar-header nav-title ">
                 <a class="navbar-brand" href="/">
                     <img src="../../../assets/images/logo/logo.png" class="img-brand"/>
-                    Grapes
+                    人脸识别系统
                 </a>
                 <button class="navbar-toggler" type="button"
                         data-toggle="collapse"
@@ -24,19 +24,19 @@
                     <el-menu-item index="-1">
                         <router-link to="/home">
                             <fa-icon :icon="['fas','home']" size="lg"/>
-                            Home
+                            识别
                         </router-link>
                     </el-menu-item>
                     <el-menu-item index="1">
                         <router-link to="/blog">
                             <fa-icon :icon="['fas','rss']" size="lg"/>
-                            Blog
+                            对比
                         </router-link>
                     </el-menu-item>
                     <el-submenu index="administration">
                         <template slot="title">
                             <fa-icon icon="user-plus" size="lg"/>
-                            Administration
+                            用户
                         </template>
                         <el-menu-item index="user-management">
                             <router-link to="/user">
