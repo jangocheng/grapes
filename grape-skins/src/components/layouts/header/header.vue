@@ -33,10 +33,34 @@
                             Blog
                         </router-link>
                     </el-menu-item>
+                    <el-submenu index="face">
+                        <template slot = "title">
+                            <fa-icon icon="smile" size="lg"/>
+                            人脸识别
+                        </template>
+                        <el-menu-item index="face-detect">
+                          <router-link to="/facedetect">
+                              <fa-icon icon="user" size="lg"/>
+                              人脸检测
+                          </router-link>
+                        </el-menu-item>
+                        <el-menu-item index="face-verify">
+                          <router-link to="/user">
+                              <fa-icon icon="user" size="lg"/>
+                              人脸对比
+                          </router-link>
+                        </el-menu-item>
+                        <el-menu-item index="recongnize">
+                          <router-link to="/user">
+                              <fa-icon icon="user" size="lg"/>
+                              身份识别
+                          </router-link>
+                        </el-menu-item>
+                    </el-submenu>
                     <el-submenu index="administration">
                         <template slot="title">
                             <fa-icon icon="user-plus" size="lg"/>
-                            Administration
+                            用户
                         </template>
                         <el-menu-item index="user-management">
                             <router-link to="/user">
