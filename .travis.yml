@@ -10,8 +10,8 @@ cache:
 before_install:
   - chmod +x mvnw
 install:
-
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true
 script:
-- ./mvnw -Pprod clean package -Dmaven.test.skip=true
+  - ./mvnw -Pprod clean package -Dmaven.test.skip=true
 
 after_success:
