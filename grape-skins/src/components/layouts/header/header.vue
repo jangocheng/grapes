@@ -4,7 +4,7 @@
             <div class="navbar-header nav-title ">
                 <a class="navbar-brand" href="/">
                     <img src="../../../assets/images/logo/logo.png" class="img-brand"/>
-                    人脸识别系统
+                    Grapes
                 </a>
                 <button class="navbar-toggler" type="button"
                         data-toggle="collapse"
@@ -24,15 +24,39 @@
                     <el-menu-item index="-1">
                         <router-link to="/home">
                             <fa-icon :icon="['fas','home']" size="lg"/>
-                            识别
+                            Home
                         </router-link>
                     </el-menu-item>
                     <el-menu-item index="1">
                         <router-link to="/blog">
                             <fa-icon :icon="['fas','rss']" size="lg"/>
-                            对比
+                            Blog
                         </router-link>
                     </el-menu-item>
+                    <el-submenu index="face">
+                        <template slot = "title">
+                            <fa-icon icon="smile" size="lg"/>
+                            人脸识别
+                        </template>
+                        <el-menu-item index="face-detect">
+                          <router-link to="/facedetect">
+                              <fa-icon icon="user" size="lg"/>
+                              人脸检测
+                          </router-link>
+                        </el-menu-item>
+                        <el-menu-item index="face-verify">
+                          <router-link to="/user">
+                              <fa-icon icon="user" size="lg"/>
+                              人脸对比
+                          </router-link>
+                        </el-menu-item>
+                        <el-menu-item index="recongnize">
+                          <router-link to="/user">
+                              <fa-icon icon="user" size="lg"/>
+                              身份识别
+                          </router-link>
+                        </el-menu-item>
+                    </el-submenu>
                     <el-submenu index="administration">
                         <template slot="title">
                             <fa-icon icon="user-plus" size="lg"/>
