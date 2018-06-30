@@ -1,0 +1,17 @@
+language: java
+jdk:
+  - oraclejdk8
+branches:
+  only:
+  - master
+cache:
+  directories:
+  - '$HOME/.m2/repository'
+before_install:
+  - chmod +x mvnw
+install:
+
+script:
+- ./mvnw -Pprod clean package -Dmaven.test.skip=true
+
+after_success:
