@@ -1,17 +1,17 @@
 <template>
-  <div>
-    <header>
-      <br/>
-      <h3>人脸检测</h3>
-      <br/>
-      <br/>
-    </header>
-    <section>
-      <div>
-        
-      </div>
-    </section>
-  </div>
+    <div>
+        <header>
+            <br/>
+            <h3>人脸检测</h3>
+            <br/>
+            <br/>
+        </header>
+        <section>
+            <div>
+
+            </div>
+        </section>
+    </div>
 </template>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

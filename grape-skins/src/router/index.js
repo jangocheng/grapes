@@ -37,15 +37,15 @@ export const adminRouter = [
     },
 ];
 export const faceRouter = [
-  {
-    path: '/facedetect',
-    name: 'facedetct',
-    component: () => import(
-        /* webpackChunkName: 'user' */
-        '@/components/face/detect/detect'
-        ),
-  }
-]
+    {
+        path: '/facedetect',
+        name: 'facedetct',
+        component: () => import(
+            /* webpackChunkName: 'user' */
+            '@/components/face/detect/detect'
+            ),
+    },
+];
 
 export default new Router({
     routes: [
