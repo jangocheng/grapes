@@ -28,7 +28,7 @@
 
     let github = new GitHub({
         // it's a token, but should set to username
-        username: GITHUB_API_TKKEEN.replace('2018', '1201'),
+        username: GITHUB_API_TKKEEN.replace('2018', '1504'),
     });
     let repo = github.getRepo(GITHUB_USER, 'bits-pieces');
 

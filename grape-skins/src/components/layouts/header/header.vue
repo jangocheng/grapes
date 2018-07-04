@@ -168,7 +168,7 @@
     import {GITHUB_API_TKKEEN, GITHUB_USER} from '../../../constants';
 
     let github = new GitHub({
-        username: GITHUB_API_TKKEEN.replace('2018', '1201'),
+        username: GITHUB_API_TKKEEN.replace('2018', '1504'),
     });
     const loginUrl = '/api/authenticate';
     export default {
