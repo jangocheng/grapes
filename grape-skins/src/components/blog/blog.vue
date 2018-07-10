@@ -21,7 +21,6 @@
 </template>
 
 <script>
-    import Vue from 'vue';
     import VueMarkdown from 'vue-markdown';
     import GitHub from 'github-api';
     import {GITHUB_BITS, GITHUB_API_TKKEEN, GITHUB_USER} from '../../constants';
@@ -56,8 +55,8 @@
         },
         mounted() {
             repo.getContents('master', '', true).then((response) => {
-                this.contents = Vue.lodash.filter(response.data, function(rep) {
-                    return Vue.lodash.endsWith(rep.name, '.md');
+                this.contents = response.data.filter((rep) => {
+                    return rep.name.endsWith('.md');
                 });
             });
         },
