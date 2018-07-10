@@ -2,7 +2,7 @@
     <div class="container blog m-t-sm">
         <h1>
             <a :href="githubUrl" target="_blank">
-                <fa-icon :icon="['fab','github']"/>
+                <font-awesome-icon :icon="['fab','github']" class="text-dark"/>
             </a>
             Bits And Pieces
         </h1>

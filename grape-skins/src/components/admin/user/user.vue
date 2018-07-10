@@ -3,7 +3,7 @@
         <h2>
             <span>Users</span>
             <button class="btn btn-primary float-right m-r-lg">
-                <fa-icon icon="user"/>
+                <font-awesome-icon icon="user"/>
                 Create a new User
             </button>
         </h2>
