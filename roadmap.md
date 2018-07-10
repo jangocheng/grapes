@@ -25,6 +25,7 @@
 
 ## 0.0.4
 * lodash and jQuery is too large
+* fontawesome is too large, see the official fontawesome-vue.js component
 * add prettier plugin
 * Spring Cloud
 * liquibase
