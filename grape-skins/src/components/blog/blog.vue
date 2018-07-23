@@ -64,7 +64,4 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
-    .blog {
-
-    }
 </style>
