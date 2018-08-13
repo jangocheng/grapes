@@ -13,6 +13,12 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
+const {ImageminWebpackPlugin} = require('imagemin-webpack');
+const imageminGifsicle = require('imagemin-gifsicle');
+const imageminJpegtran = require('imagemin-jpegtran');
+const imageminOptipng = require('imagemin-optipng');
+const imageminSvgo = require('imagemin-svgo');
+
 const env = process.env.NODE_ENV === 'testing'
     ? require('../config/test.env')
     : require('../config/prod.env');
@@ -82,7 +88,7 @@ const webpackConfig = merge(baseWebpackConfig, {
         }),
         new DynamicCdnWebpackPlugin({
             exclude: ['vue'],
-            verbose: true,
+            verbose: false,
         }),
         // keep module.id stable when vendor modules does not change
         new webpack.HashedModuleIdsPlugin(),
@@ -127,6 +133,19 @@ const webpackConfig = merge(baseWebpackConfig, {
                 ignore: ['.*'],
             },
         ]),
+
+        new ImageminWebpackPlugin({
+            imageminOptions: {
+                cache: false,
+                bail: false, // Ignore errors on corrupted images
+                plugins: [
+                    imageminGifsicle(),
+                    imageminJpegtran(),
+                    imageminOptipng(),
+                    imageminSvgo(),
+                ],
+            },
+        }),
     ],
 });
 
