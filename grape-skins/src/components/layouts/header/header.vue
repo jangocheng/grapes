@@ -33,33 +33,8 @@
                             Blog
                         </router-link>
                     </el-menu-item>
-                    <el-submenu index="face">
-                        <template slot = "title">
-                            <font-awesome-icon icon="smile" size="lg"/>
-                            Face
-                        </template>
-                        <el-menu-item index="face-detect">
-                            <router-link to="/facedetect">
-                                <font-awesome-icon icon="user" size="lg"/>
-                                Face detection
-                            </router-link>
-                        </el-menu-item>
-                        <el-menu-item index="face-verify">
-                            <router-link to="/user">
-                                <font-awesome-icon icon="user" size="lg"/>
-                                Face Test
-                            </router-link>
-                        </el-menu-item>
-                        <el-menu-item index="recongnize">
-                            <router-link to="/user">
-                                <font-awesome-icon icon="user" size="lg"/>
-                                Face recognition
-                            </router-link>
-                        </el-menu-item>
-                    </el-submenu>
 
-
-                    <el-submenu index="administration">
+                    <el-submenu index="administration" v-if="false">
                         <template slot="title">
                             <font-awesome-icon icon="user-plus" size="lg"/>
                             Administration
@@ -108,7 +83,7 @@
                         </el-menu-item>
                     </el-submenu>
 
-                    <el-submenu index="3">
+                    <el-submenu index="3" v-if="false">
                         <template slot="title">
                             <font-awesome-icon icon="user-circle" size="lg"/>
                             Account
