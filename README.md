@@ -1,7 +1,8 @@
-# Grapes
+# Grapes [![Build Status](https://travis-ci.org/l10178/grapes.svg?branch=master)](https://travis-ci.org/l10178/grapes)
 Grapes is a Spring Boot + Vue.js Web application.
 `grape-skins` is the source  of frontend, and `grape-seeds` is the source of backend.
 
+https://travis-ci.org/l10178/grapes.svg?branch=master
 
 ## Development
 
