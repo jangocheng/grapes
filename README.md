@@ -2,8 +2,6 @@
 Grapes is a Spring Boot + Vue.js Web application.
 `grape-skins` is the source  of frontend, and `grape-seeds` is the source of backend.
 
-https://travis-ci.org/l10178/grapes.svg?branch=master
-
 ## Development
 
 Before you can build this project, you must install and configure the following dependencies on your machine:
