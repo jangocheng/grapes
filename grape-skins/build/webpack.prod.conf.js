@@ -9,6 +9,8 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 //https://github.com/mastilver/dynamic-cdn-webpack-plugin
 const DynamicCdnWebpackPlugin = require('dynamic-cdn-webpack-plugin');
+const cdnConfig = require('../config/cdn');
+
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
@@ -87,8 +89,10 @@ const webpackConfig = merge(baseWebpackConfig, {
             chunksSortMode: 'dependency',
         }),
         new DynamicCdnWebpackPlugin({
-            exclude: ['vue'],
+            exclude: [''],
             verbose: false,
+            resolver: cdnConfig,
+            env: 'production',
         }),
         // keep module.id stable when vendor modules does not change
         new webpack.HashedModuleIdsPlugin(),
