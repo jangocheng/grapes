@@ -21,13 +21,13 @@
 
 ## 0.0.3
 * vue route lazy load.
-* upgrade Jhipster to v5.0, spring boot to v2.0
+* upgrade Jhipster to v5.0, spring boot to v2.0.
 
 ## 0.0.4
-* lodash and jQuery is too large
+* use CDN
+* travis-ci support.
 * fontawesome is too large, see the official fontawesome-vue.js component
 * add prettier plugin
-* use CDN
 * Spring Cloud
 * liquibase
 * form validation: java validation

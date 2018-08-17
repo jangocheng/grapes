@@ -14,7 +14,7 @@
                 <template slot="title">
                     <h5>{{ content.name }}</h5>
                 </template>
-                <vue-markdown :source="markdownSource"></vue-markdown>
+                <vue-markdown :source="markdownSource" v-loading="loading"></vue-markdown>
             </el-collapse-item>
         </el-collapse>
     </div>
@@ -37,6 +37,7 @@
             return {
                 githubUrl: GITHUB_BITS,
                 markdownSource: '',
+                loading: false,
                 contents: [],
             };
         },
@@ -47,8 +48,10 @@
             showDetail: function(filePath) {
                 this.markdownSource = '';
                 if (filePath) {
+                    this.loading = true;
                     repo.getContents('master', filePath, true).then((response) => {
                         this.markdownSource = response.data;
+                        this.loading = false;
                     });
                 }
             },
