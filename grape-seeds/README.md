@@ -41,6 +41,4 @@ Licensed under [MIT][]. Copyright (c) 2018 [l10178][]
 [grapes]: https://github.com/l10178/grapes
 [MIT]: https://opensource.org/licenses/MIT
 [l10178]: http://nxest.com/
-[Node.js]: https://nodejs.org/
-[Yarn]: https://yarnpkg.org/
-[Webpack]: https://webpack.github.io/
+[Jodd]: https://jodd.org/
