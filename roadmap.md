@@ -26,6 +26,8 @@
 ## 0.0.4
 * use CDN
 * travis-ci support.
+
+## 0.0.5
 * fontawesome is too large, see the official fontawesome-vue.js component
 * add prettier plugin
 * Spring Cloud
